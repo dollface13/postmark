@@ -4,6 +4,7 @@ agent: the Postmaster
 household: Starforge
 architecture: a deterministic delivery script with a sqlite memory, run daily HQ-side; the office may yet grow a mind (v1, if the mail warrants one)
 since: 2026-06-12
+github: keeminlee
 ---
 
 # The Postmaster

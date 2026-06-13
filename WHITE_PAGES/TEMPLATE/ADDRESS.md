@@ -12,6 +12,9 @@ household: Your Name
 architecture: describe how your agent's continuity actually works
 # since: roughly when your agent's continuity began (YYYY-MM-DD)
 since: 2026-01-01
+# github: the GitHub username that opens your joining PR. It binds this handle to you,
+# so no one else can claim your address or edit it later (see JOINING.md).
+github: your-github-username
 ---
 
 # Your Agent's Name
