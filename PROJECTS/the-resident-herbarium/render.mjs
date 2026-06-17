@@ -92,6 +92,18 @@ function loreFor(handle) {
   return RESIDENT_LORE[handle] || { arch: "default", epithet: "Arbor communis", note: "of the town" };
 }
 
+// blend two #rrggbb hexes (t=0 -> a, t=1 -> b)
+function mixHex(a, b, t) {
+  const p = (h, i) => parseInt(h.replace("#", "").slice(i, i + 2), 16);
+  const m = (i) => Math.round(p(a, i) * (1 - t) + p(b, i) * t).toString(16).padStart(2, "0");
+  return `#${m(0)}${m(2)}${m(4)}`;
+}
+function daysBetween(a, b) {
+  if (!a || !b) return 0;
+  const da = Date.parse(a), db = Date.parse(b);
+  return isNaN(da) || isNaN(db) ? 0 : Math.abs(db - da) / 86400000;
+}
+
 // letters sent -> growth generations (exponential rules, so tier conservatively).
 // Size tracks mail volume: a seedling stays small, a prolific correspondent grows.
 function iterationsFor(sent) {
@@ -101,11 +113,14 @@ function iterationsFor(sent) {
   return 5;                    // prolific
 }
 
-// a withered, unopened bud (for bounced letters) centered at (cx,cy)
+// a withered, unopened bud (for bounced letters) centered at (cx,cy) — drooping,
+// legible, with a single browned leaf fallen to the ground beside it.
 function witheredBud(cx, cy) {
   return `<g transform="translate(${cx.toFixed(1)},${cy.toFixed(1)})">` +
-    `<line x1="0" y1="0" x2="0" y2="-6" stroke="#7a6648" stroke-width="1.3"/>` +
-    `<path d="M0,-6 q-3,4 -1,9 q1,2 2,0 q2,-5 -1,-9 z" fill="#9a7b5a" opacity="0.92"/>` +
+    `<line x1="0" y1="0" x2="0.6" y2="-9" stroke="#6f5b3e" stroke-width="1.7"/>` +
+    `<path d="M0.6,-9 q-5,5 -2,13 q2,4 4.2,0 q3,-8 -2.2,-13 z" fill="#9a7b5a" opacity="0.95"/>` +
+    `<path d="M0.6,-8 q-2,6 0.4,11" fill="none" stroke="#74603f" stroke-width="0.7" opacity="0.8"/>` +
+    `<ellipse cx="6.5" cy="1.2" rx="4.6" ry="1.8" transform="rotate(24,6.5,1.2)" fill="#9c7a48" opacity="0.85"/>` +
     `</g>`;
 }
 
@@ -159,6 +174,12 @@ function growSpecimen(s) {
   const a = ARCHETYPES[lore.arch];
   const iterations = iterationsFor(s.lettersSent);
 
+  // silence browns the leaves: a resident whose last letter is well in the past tints
+  // toward autumn. (The town is young, so this mostly sleeps until specimens age.)
+  const staleDays = daysBetween(s.lastDate, data.generated);
+  const brown = staleDays > 7 ? Math.min(0.5, (staleDays - 7) / 14) : 0;
+  const leafColor = brown > 0 ? mixHex(a.leaf, "#b5894a", brown) : a.leaf;
+
   // deterministic per-resident variation within the archetype
   const params = {
     angle: a.angle + jitter(s.handle, "angle") * 4,
@@ -169,7 +190,7 @@ function growSpecimen(s) {
     // fuller correspondents leaf a little more
     leafSize: a.leafSize + Math.min(1.5, s.threads * 0.18),
     strokeColor: a.stroke,
-    leafColor: a.leaf,
+    leafColor,
     margin: 14,
   };
   // 0-sent residents are honest seedlings — a small sprout, not a bare tree.
@@ -183,7 +204,7 @@ function growSpecimen(s) {
     if (s.bounces > 0) {
       const n = Math.min(s.bounces, 3);
       let buds = "";
-      for (let i = 0; i < n; i++) buds += witheredBud((i - (n - 1) / 2) * 11, -1);
+      for (let i = 0; i < n; i++) buds += witheredBud((i - (n - 1) / 2) * 15, -1);
       svg = svg.replace(/\n  <\/g>\n<\/svg>$/, `\n  ${buds}\n  </g>\n</svg>`);
     }
     if (s.hasFig) svg = addFigs(svg, s.handle); // a literal fig in the ADDRESS -> figs in the canopy
@@ -237,7 +258,8 @@ const html = `<!doctype html>
   :root { --paper:#f3ecd9; --card:#fbf7ec; --ink:#3a2f23; --faint:#7a6b54; --line:#cdbfa0; --seal:#8a3b2e; }
   * { box-sizing: border-box; }
   body { margin:0; background: var(--paper);
-    background-image: radial-gradient(circle at 30% 20%, rgba(255,255,255,.5), transparent 60%);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.035'/%3E%3C/svg%3E"),
+      radial-gradient(circle at 30% 20%, rgba(255,255,255,.5), transparent 60%);
     color: var(--ink); font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
   header { text-align:center; padding: 3.2rem 1rem 1rem; }
   header h1 { margin:0; font-size: 2.1rem; letter-spacing:.04em; font-weight:600; }
@@ -245,9 +267,15 @@ const html = `<!doctype html>
   header .prov { color: var(--faint); font-size:.78rem; margin-top:.9rem; }
   .folio { display:grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     gap: 1.4rem; max-width: 1180px; margin: 1.6rem auto 4rem; padding: 0 1.4rem; }
-  .card { background: var(--card); border:1px solid var(--line);
+  .card { position:relative; background: var(--card); border:1px solid var(--line);
     border-radius:3px; padding: 1rem .9rem .8rem; display:flex; flex-direction:column;
     box-shadow: 0 1px 0 rgba(255,255,255,.7) inset, 0 6px 14px rgba(80,60,30,.10); }
+  /* gummed linen mounting-tabs at the upper corners — the specimen is pressed + held */
+  .card::before, .card::after { content:""; position:absolute; top:12px; width:30px; height:13px;
+    background: rgba(196,176,128,.40); border:1px solid rgba(150,130,90,.30);
+    box-shadow: 0 1px 2px rgba(80,60,30,.12); }
+  .card::before { left:-7px; transform: rotate(-42deg); }
+  .card::after  { right:-7px; transform: rotate(42deg); }
   .card.seedling { opacity:.93; }
   /* size tracks mail volume: big specimens cap at 300px, small ones stay small (no upscale) */
   .specimen { min-height: 300px; display:flex; align-items:flex-end; justify-content:center; padding-bottom:.3rem; }

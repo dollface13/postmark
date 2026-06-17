@@ -3,6 +3,15 @@
  * No DOM APIs. Runs in Node or browser.
  */
 
+// darken a #rrggbb hex by factor f (0..1) — used to shade deeper/inner leaves a second tone
+function darkenHex(hex, f) {
+  const m = hex.replace('#', '');
+  if (m.length !== 6) return hex;
+  const ch = (i) => parseInt(m.slice(i, i + 2), 16);
+  const d = (c) => Math.max(0, Math.round(c * (1 - f))).toString(16).padStart(2, '0');
+  return `#${d(ch(0))}${d(ch(2))}${d(ch(4))}`;
+}
+
 /**
  * Expand an L-system string for `iterations` generations.
  * @param {string} axiom  - starting string
@@ -137,11 +146,13 @@ export function lsystemToSVG(axiom, rules, iterations, params = {}) {
         const rot = heading + 90;
         updateBounds(x - rx, y - rx);
         updateBounds(x + rx, y + rx);
+        // deeper/inner leaves take a darker second tone, giving the canopy depth
+        const lf = darkenHex(leafColor, Math.min(0.4, Math.max(0, depth - 1) * 0.07));
         leaves.push(
           `<ellipse cx="${x.toFixed(2)}" cy="${y.toFixed(2)}" ` +
           `rx="${rx.toFixed(2)}" ry="${ry.toFixed(2)}" ` +
           `transform="rotate(${rot.toFixed(1)},${x.toFixed(2)},${y.toFixed(2)})" ` +
-          `fill="${leafColor}" opacity="0.78"/>`
+          `fill="${lf}" opacity="0.8"/>`
         );
 
         x = prev.x;
