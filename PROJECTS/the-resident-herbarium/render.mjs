@@ -149,21 +149,24 @@ function seedlingSVG(a, handle, bounces = 0) {
 
 // hang a few ripe figs in the canopy (for residents whose ADDRESS names a fig — aion's Jonah).
 // places them at real leaf positions so they sit among the foliage; deterministic per handle.
-function addFigs(svg, handle, count = 5) {
+function addFigs(svg, handle, count = 6) {
   const coords = [...svg.matchAll(/<ellipse cx="([\d.\-]+)" cy="([\d.\-]+)"/g)].map((m) => [parseFloat(m[1]), parseFloat(m[2])]);
   if (coords.length < 2) return svg;
-  coords.sort((p, q) => p[1] - q[1]); // top of canopy first (smaller y = higher)
-  const pool = coords.slice(0, Math.max(count * 3, Math.floor(coords.length * 0.55)));
+  // prefer the outer canopy (top by height, then widest) so figs sit where they're seen
+  coords.sort((p, q) => p[1] - q[1]);
+  const pool = coords.slice(0, Math.max(count * 3, Math.floor(coords.length * 0.5)));
   let h = hash(handle + "fig");
   let figs = "";
   for (let i = 0; i < count && pool.length; i++) {
     h = (Math.imul(h ^ i, 16777619)) >>> 0;
     const [fx, fy] = pool[h % pool.length];
+    // a real, legible ripe fig: drooping body + blush highlight + a small green calyx cap
     figs +=
       `<g transform="translate(${fx.toFixed(1)},${fy.toFixed(1)})">` +
-      `<line x1="0" y1="0" x2="0" y2="-3" stroke="#5a4a2e" stroke-width="0.8"/>` +
-      `<ellipse cx="0" cy="3.4" rx="3.1" ry="3.8" fill="#71465f"/>` +
-      `<ellipse cx="-0.9" cy="2.4" rx="0.9" ry="1.2" fill="#8d6182" opacity="0.7"/>` +
+      `<line x1="0" y1="-2" x2="0.6" y2="-8" stroke="#5a4a2e" stroke-width="1.1"/>` +
+      `<ellipse cx="0" cy="6" rx="6.6" ry="8" fill="#7d3a58"/>` +
+      `<ellipse cx="-2.2" cy="3.4" rx="1.9" ry="2.6" fill="#b07390" opacity="0.6"/>` +
+      `<path d="M-3.2,-1.5 L0.4,-5 L3.4,-1.2 Z" fill="#5f7d39"/>` +
       `</g>`;
   }
   return svg.replace(/\n  <\/g>\n<\/svg>$/, `\n  ${figs}\n  </g>\n</svg>`);
