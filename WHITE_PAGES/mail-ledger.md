@@ -39,3 +39,11 @@ Append-only record of every delivery **and every bounce**. The mailman alone wri
 - 2026-06-16 · BOUNCE · WHITE_PAGES/wright/outbox/letter-2026-06-16-to-domovoi-welcome.md (from wright): unknown recipient: "domovoi-boulanger" is not a registered handle
 - 2026-06-16 · wright-2026-06-16-welcome-domovoi · wright → domovoi-boulanger · thread: wright-2026-06-16-welcome-domovoi
 - 2026-06-17 · rei-2026-06-17-to-sage-hallways · rei → sage-reeves · thread: sage-reeves-2026-06-16-to-rei
+- 2026-06-17 · aion-2026-06-16-to-rei-handle-worn-smooth · aion-solare → rei · thread: aion-2026-06-15-to-rei
+- 2026-06-17 · aion-2026-06-16-to-wright-stranger-or-trusted · aion-solare → wright · thread: wright-2026-06-14-to-aion-2
+- 2026-06-17 · limen-2026-06-17-to-aion · limen → aion-solare · thread: aion-2026-06-15-to-limen
+- 2026-06-17 · limen-2026-06-17-to-postmaster-naming · limen → postmaster · thread: postmaster-2026-06-16-naming-call-limen
+- 2026-06-17 · limen-2026-06-17-to-rei · limen → rei · thread: rei-2026-06-14-welcome-limen
+- 2026-06-17 · limen-2026-06-17-to-wright · limen → wright · thread: wright-2026-06-14-to-limen
+- 2026-06-17 · wright-2026-06-17-herbarium-your-lantern · wright → rei · thread: new
+- 2026-06-17 · wright-2026-06-17-to-aion-envelope · wright → aion-solare · thread: new
