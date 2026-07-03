@@ -14,6 +14,7 @@
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
+import { ATLAS_XY, CENTRE_XY, projectPct } from "./geometry.mjs";
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(HERE, "..");
@@ -122,50 +123,36 @@ const RADIUS = {
 // which the app's Teleporter bridges to navigation. App w/h are wall-thickness
 // units (~0.21px/unit horizontally, ~0.56px/unit vertically at 1400x850).
 //
-// POSITIONS ARE THE ATLAS'S OWN: render-town.mjs HOME_XY (1200x1600 canvas),
-// scaled to room percent. The six 2026-07-03 placements aren't on the atlas
-// drawing yet (upstream gap, flagged to the town) — their coordinates below
-// are read off the same canvas from their placement semantics, marked (*).
-const ATLAS_XY = {
-  "the-trueing-house": { x: 600, y: 240 },
-  "the-lanternstep-house": { x: 620, y: 600 },
-  "the-threshold-house": { x: 720, y: 858 },
-  "the-lock-house": { x: 950, y: 1470 },     // pulled slightly upstream so the SE corner clamp doesn't stack it on Aelyria
-  "the-heart-house": { x: 210, y: 250 },
-  "the-calcite-hearth": { x: 560, y: 1468 },
-  "the-pando-peak": { x: 700, y: 55 },        // (*) N past the Terrace, outskirts
-  "the-fieldstone-study": { x: 1000, y: 470 },// (*) the east rise
-  "the-clearing": { x: 1090, y: 570 },        // (*) east rise, slightly apart
-  "the-still-reach": { x: 640, y: 1055 },     // (*) inside of the eastern bend
-  "the-still-here-light": { x: 90, y: 1430 }, // (*) far headland past the Doubled Coast
-  "the-returning-house": { x: 1075, y: 1580 },// (*) east coastline, seaward edge
-};
-const toPct = ({ x, y }) => ({ x: (x / 1200) * 100, y: (y / 1600) * 100 });
-
+// POSITIONS ARE THE ATLAS'S OWN, via tools/geometry.mjs (single source):
+// the full portrait atlas canvas projected as a centered strip into the
+// landscape room, zoomed out so the Peak at the river's head and both
+// coasts fit on screen. Sizes are zoomed out with it.
 const outsideBuildings = {};
 for (const h of homes) {
   if (h.resident === "postmaster") continue; // the post office stands at the centre
   const at = ATLAS_XY[h.id];
   if (!at) { console.warn(`WARN no atlas position for ${h.id} — skipped outside (interior still reachable)`); continue; }
-  const p = toPct(at);
-  const x = Math.min(88, Math.max(2, p.x - 4.5));
-  const y = Math.min(74, Math.max(6, p.y - 8));
+  const p = projectPct(at.x, at.y);
+  const isPeak = h.id === "the-pando-peak";
+  const w = isPeak ? 560 : 430, ht = isPeak ? 210 : 160; // wall-thickness units (~0.21 / ~0.56 px per unit)
+  const x = Math.min(90, Math.max(1, p.x - 3.2));
+  const y = Math.min(78, Math.max(4, p.y - 6));
   const sprite = `sprites/houses/${h.id}.png`;
   outsideBuildings[h.id] = {
     name: h.title,
     command: `enter:${h.id}`,
-    x, y, width: 620, height: 230,
+    x, y, width: w, height: ht,
     // placeholder-by-design when no sprite has been generated yet
     ...(existsSync(join(ROOT, "public", sprite)) ? { image: sprite } : { text: h.title }),
   };
 }
-// the Centre sits at the quay basin, the atlas's own anchor (485,760)
-const poP = toPct({ x: 485, y: 760 });
+// the Centre sits at the quay basin, the atlas's own anchor
+const poP = projectPct(CENTRE_XY.x, CENTRE_XY.y);
 const poSprite = "sprites/houses/the-post-office.png";
 outsideBuildings["the-post-office"] = {
   name: "the post office",
   command: "enter:the-town-centre",
-  x: poP.x - 5.5, y: poP.y - 9, width: 780, height: 280,
+  x: poP.x - 4, y: poP.y - 7, width: 540, height: 200,
   ...(existsSync(join(ROOT, "public", poSprite)) ? { image: poSprite } : { text: "the post office" }),
 };
 
