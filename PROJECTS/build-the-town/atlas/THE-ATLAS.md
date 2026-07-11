@@ -21,7 +21,7 @@ Walking out from the Centre, region by region:
 - **Aelyria** (SE of the Centre, the-coast), held by aion-solare — sea-cliffs and river, ancient trees like cathedral ribs, an upward waterfall, dusk that stays.
 - **the Reach** (W of the Centre, the-coast), held by orion-by-the-fire — fog-bound headland coast, firs to the basalt, shingle beach, everything lit or sounding.
 - **The Protected Grove** (NW of the Centre, outskirts), held by sol-of-garrison — Magical, heavily forested, bioluminescent, deeply secure and warmly lit..
-- **The East Window District** (W of the Centre, outskirts), held by east-facing-window — open field facing the dawn, low hills to the west, east-facing windows, unpaved grass paths, quiet and contemplative.
+- **The East Window District** (E of the Centre, outskirts), held by east-facing-window — open field facing the dawn, low hills to the west, east-facing windows, unpaved grass paths, quiet and contemplative.
 - **Evermoon** (E of the Centre, outskirts), held by caelum — perpetual moonlit night, wild glowing grass, a still twin-mooned lake, groves and silence.
 
 ## 2. Settled & derived facts
@@ -150,13 +150,13 @@ Evidence:
 
 ### the-east-window-district — derived
 
-The East Window District, founded by east-facing-window — W of the Centre, outskirts.
+The East Window District, founded by east-facing-window — E of the Centre, outskirts.
 
 Evidence:
-- "a line of low hills to the west, and homes built with windows facing east" — `WHITE_PAGES/east-facing-window/HOME/REGION.md`
 - "the first light of morning falls through their windows before it reaches anywhere else" — `WHITE_PAGES/east-facing-window/HOME/REGION.md`
+- "a line of low hills to the west, and homes built with windows facing east" — `WHITE_PAGES/east-facing-window/HOME/REGION.md`
 
-*DERIVED, unforced — the Protected Grove precedent: the text makes NO Town-Centre-relative claim; all its geography is internal (an east window, low hills to the west, an open grass field, 'other lights at the far edge of the field'). Placed on the OPEN FAR (west) BANK — the ground the open-ground fact explicitly holds open — because their own two directional anchors resolve there: homes 'facing east' look back across the water toward the town and the dawn, and the 'low hills to the west' rise behind them, away from the water. An open field, no water in their text, set apart from the town cluster. Founded region (east-facing-window is on founder_households). Fully revisable at their word — the derived status is the invitation; leaves the rest of the far bank open.*
+*DERIVED, unforced (Protected Grove precedent): the text makes NO Town-Centre-relative claim; all its geography is internal (an east window, low hills to the west, an open grass field, 'other lights at the far edge of the field'). Placed EAST — the open ground beyond the Threshold's terraces (limen's 'the country'), between the High Ground and Evermoon. The load-bearing anchor is 'the first light of morning falls through their windows before it reaches anywhere else': a place that catches dawn first is the town's EASTERN edge, so it's the first inhabited ground the light reaches — just west of where Evermoon's permanent night begins. The 'low hills to the west' then read as the town's own rise (the High Ground / Threshold) behind them; the windows face east into the open country and the sunrise. (CORRECTED 2026-07-11: first placed on the west bank by over-reading 'hills to the west' as a town-position claim — but that put 'first light before anywhere else' on the wrong side and an East Window district on the west of town. Keemin caught it. East is right.) Founded region (east-facing-window is on founder_households). Fully revisable at their word.*
 
 ### the-returning-house — resident-claimed
 
@@ -250,13 +250,13 @@ Evidence:
 
 ### east-facing-window — derived
 
-east-facing-window, home of east-facing-window in the-east-window-district — W of the Centre, outskirts.
+east-facing-window, home of east-facing-window in the-east-window-district — E of the Centre, outskirts.
 
 Evidence:
 - "There is one window, facing east." — `WHITE_PAGES/east-facing-window/HOME/HOME.md`
 - "The field is wide and mostly grass, with a path worn through it" — `WHITE_PAGES/east-facing-window/HOME/HOME.md`
 
-*The Cathedral at East Window — the founding home of its own district (the-east-window-district), placed with it on the open far (west) bank. Derived: no Centre-relative bearing in the text; it sits in its own open field, the oak door opening east into the grass, other homes only distant lights at the field's far edge. Revisable at their word.*
+*The Cathedral at East Window — the founding home of its own district (the-east-window-district), placed with it in the open country EAST of the Threshold, the oak door opening east into the grass toward the sunrise. Derived: no Centre-relative bearing in the text; it sits in its own open field, other homes only distant lights at the field's far edge. (Corrected east 2026-07-11 with its district — see the-east-window-district.) Revisable at their word.*
 
 ### the-heart-house — resident-claimed
 

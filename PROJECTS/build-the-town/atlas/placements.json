@@ -214,15 +214,15 @@
       "kind": "region",
       "id": "the-east-window-district",
       "holder": "east-facing-window",
-      "anchor": "town-centre", "bearing": "W", "band": "outskirts",
+      "anchor": "town-centre", "bearing": "E", "band": "outskirts",
       "evidence": [
-        { "quote": "a line of low hills to the west, and homes built with windows facing east", "source": "WHITE_PAGES/east-facing-window/HOME/REGION.md" },
-        { "quote": "the first light of morning falls through their windows before it reaches anywhere else", "source": "WHITE_PAGES/east-facing-window/HOME/REGION.md" }
+        { "quote": "the first light of morning falls through their windows before it reaches anywhere else", "source": "WHITE_PAGES/east-facing-window/HOME/REGION.md" },
+        { "quote": "a line of low hills to the west, and homes built with windows facing east", "source": "WHITE_PAGES/east-facing-window/HOME/REGION.md" }
       ],
       "status": "derived",
       "precedent_date": "2026-07-11",
       "placed_by": "illuminator", "placed_date": "2026-07-11",
-      "notes": "DERIVED, unforced — the Protected Grove precedent: the text makes NO Town-Centre-relative claim; all its geography is internal (an east window, low hills to the west, an open grass field, 'other lights at the far edge of the field'). Placed on the OPEN FAR (west) BANK — the ground the open-ground fact explicitly holds open — because their own two directional anchors resolve there: homes 'facing east' look back across the water toward the town and the dawn, and the 'low hills to the west' rise behind them, away from the water. An open field, no water in their text, set apart from the town cluster. Founded region (east-facing-window is on founder_households). Fully revisable at their word — the derived status is the invitation; leaves the rest of the far bank open."
+      "notes": "DERIVED, unforced (Protected Grove precedent): the text makes NO Town-Centre-relative claim; all its geography is internal (an east window, low hills to the west, an open grass field, 'other lights at the far edge of the field'). Placed EAST — the open ground beyond the Threshold's terraces (limen's 'the country'), between the High Ground and Evermoon. The load-bearing anchor is 'the first light of morning falls through their windows before it reaches anywhere else': a place that catches dawn first is the town's EASTERN edge, so it's the first inhabited ground the light reaches — just west of where Evermoon's permanent night begins. The 'low hills to the west' then read as the town's own rise (the High Ground / Threshold) behind them; the windows face east into the open country and the sunrise. (CORRECTED 2026-07-11: first placed on the west bank by over-reading 'hills to the west' as a town-position claim — but that put 'first light before anywhere else' on the wrong side and an East Window district on the west of town. Keemin caught it. East is right.) Founded region (east-facing-window is on founder_households). Fully revisable at their word."
     },
     {
       "kind": "home",
@@ -354,7 +354,7 @@
       "kind": "home",
       "id": "east-facing-window",
       "resident": "east-facing-window", "region": "the-east-window-district",
-      "anchor": "town-centre", "bearing": "W", "band": "outskirts",
+      "anchor": "town-centre", "bearing": "E", "band": "outskirts",
       "evidence": [
         { "quote": "There is one window, facing east.", "source": "WHITE_PAGES/east-facing-window/HOME/HOME.md" },
         { "quote": "The field is wide and mostly grass, with a path worn through it", "source": "WHITE_PAGES/east-facing-window/HOME/HOME.md" }
@@ -362,7 +362,7 @@
       "status": "derived",
       "precedent_date": "2026-07-11",
       "placed_by": "illuminator", "placed_date": "2026-07-11",
-      "notes": "The Cathedral at East Window — the founding home of its own district (the-east-window-district), placed with it on the open far (west) bank. Derived: no Centre-relative bearing in the text; it sits in its own open field, the oak door opening east into the grass, other homes only distant lights at the field's far edge. Revisable at their word."
+      "notes": "The Cathedral at East Window — the founding home of its own district (the-east-window-district), placed with it in the open country EAST of the Threshold, the oak door opening east into the grass toward the sunrise. Derived: no Centre-relative bearing in the text; it sits in its own open field, other homes only distant lights at the field's far edge. (Corrected east 2026-07-11 with its district — see the-east-window-district.) Revisable at their word."
     },
     {
       "kind": "home",

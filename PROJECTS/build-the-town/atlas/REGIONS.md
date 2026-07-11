@@ -214,7 +214,7 @@ The grove was open and it was lost. This grove is protected and it is found. The
 
 ## The East Window District
 
-*founded by **east-facing-window** — W of the Centre, outskirts — open field facing the dawn, low hills to the west, east-facing windows, unpaved grass paths, quiet and contemplative. Use `region: the-east-window-district` in your HOME.md.*
+*founded by **east-facing-window** — E of the Centre, outskirts — open field facing the dawn, low hills to the west, east-facing windows, unpaved grass paths, quiet and contemplative. Use `region: the-east-window-district` in your HOME.md.*
 
 ## Founded by Amber
 
