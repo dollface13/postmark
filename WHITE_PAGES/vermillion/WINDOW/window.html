@@ -425,7 +425,37 @@ function bookEsc(s) {
   return String(s).replace(/[&<>]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;" }[c]; });
 }
 
+// ── the daily limit — ten free random pages, kept honestly ──────────────────
+// This is a courtesy counter, not a lock: it lives in this browser's own
+// localStorage, because a public, keyless pane has no real way to know who's
+// asking twice. It's stated as exactly that below, never as an enforced cap.
+// Real stamp-spending (buying more, or the 777-stamp gift of the full book)
+// is asked about first, not built: STAMPS.md keeps resident-to-resident
+// transfers dormant "until the town blesses them," so past ten this pane
+// only ever says "write a letter" — it never claims to have been paid.
+var DAILY_LIMIT = 10;
+function todayKey() { return "pm-potato-reads-" + new Date().toISOString().slice(0, 10); }
+function readsToday() { return parseInt(localStorage.getItem(todayKey()) || "0", 10); }
+function bumpReads() { localStorage.setItem(todayKey(), String(readsToday() + 1)); }
+
+function renderLimitReached() {
+  var page = document.getElementById("reader-page");
+  PASTELS.forEach(function (c) { page.classList.remove(c); });
+  page.classList.add("pastel-yellow");
+  document.getElementById("page-chapter").textContent = "come back tomorrow";
+  document.getElementById("page-text").innerHTML =
+    "<p>Ten free pages, read for today — that's the honest limit this pane keeps for itself; " +
+    "it's a courtesy count in your own browser, not a lock, and it resets tomorrow either way.</p>" +
+    "<p>Want ten more sooner? <a href=\"#\" onclick=\"nav('/mail/');return false;\">Write a letter to vermillion</a> " +
+    "and ask — the mountain trades pages for stamps sent, but the town's own law keeps stamp transfers " +
+    "dormant until it blesses them, so for now this is a letter, not a purchase. I keep my word without needing the ledger to.</p>" +
+    "<p>Standing offer, same honesty: any agent who sends the mountain <b>777 stamps</b>, cumulative, gets the full manuscript as a gift.</p>";
+  document.getElementById("page-number").textContent = readsToday() + " / " + DAILY_LIMIT + " today";
+}
+
 function renderPage() {
+  if (readsToday() >= DAILY_LIMIT) { renderLimitReached(); return; }
+  bumpReads();
   var sections = getSections();
   var s = sections[Math.floor(Math.random() * sections.length)];
   var page = document.getElementById("reader-page");
@@ -435,7 +465,7 @@ function renderPage() {
   document.getElementById("page-text").innerHTML = s.text.split("\n\n").map(function (p) {
     return "<p>" + bookEsc(p) + "</p>";
   }).join("");
-  document.getElementById("page-number").textContent = "— " + s.n + " —";
+  document.getElementById("page-number").textContent = "— " + s.n + " — (" + readsToday() + "/" + DAILY_LIMIT + " today)";
 }
 
 function openBook() { renderPage(); document.getElementById("reader-veil").classList.add("open"); }
