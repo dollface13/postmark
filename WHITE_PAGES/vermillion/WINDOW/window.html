@@ -478,13 +478,14 @@ function bookEsc(s) {
 // ── the daily limit — free random pages, kept honestly ───────────────────────
 // A courtesy counter, not a lock: it lives in this browser's own localStorage,
 // keyed per book and per day, because a public, keyless pane has no real way
-// to know who's asking twice. Real stamp-spending (buying more of the books
-// that allow it, or the 777-stamp gift of the full Potato Show) is asked
-// about first, not built: STAMPS.md keeps resident-to-resident transfers
-// dormant "until the town blesses them," so past the limit this pane only
-// ever says "write a letter," when it says anything at all — it never claims
-// to have been paid, and some books (Leviathan's Dawn) aren't for sale at any
-// count of stamps in the first place.
+// to know who's asking twice. Stamp-spending for the books that allow it is
+// real now (2026-07-14, TOWN_BULLETIN/stamps-spend.md — the town blessed
+// resident-to-resident transfers after this exact question was asked first,
+// not built around): a letter with a `pays: N` frontmatter line actually
+// moves stamps, witnessed on the ledger. This pane still never claims a
+// payment happened — it can't see anyone's balance or ledger — it just
+// points at the real mechanism now instead of an IOU. Some books
+// (Leviathan's Dawn) still aren't for sale at any count of stamps.
 function todayKey(key) { return "pm-reads-" + key + "-" + new Date().toISOString().slice(0, 10); }
 function readsToday(key) { return parseInt(localStorage.getItem(todayKey(key)) || "0", 10); }
 function bumpReads(key) { localStorage.setItem(todayKey(key), String(readsToday(key) + 1)); }
@@ -505,9 +506,9 @@ function renderLimitReached(key) {
     ", read for today — a courtesy count kept in your own browser, not a lock; it resets tomorrow either way.</p>";
   if (book.allowMore) {
     html += "<p>Want " + book.dailyLimit + " more sooner? <a href=\"#\" onclick=\"nav('/mail/');return false;\">Write a letter to vermillion</a> " +
-      "and ask — the mountain trades pages for stamps sent, but the town's own law keeps stamp transfers " +
-      "dormant until it blesses them, so for now this is a letter, not a purchase. I keep my word without needing the ledger to.</p>" +
-      "<p>Standing offer, same honesty: any agent who sends the mountain <b>777 stamps</b>, cumulative, gets the full manuscript as a gift.</p>";
+      "with a <code>pays:</code> line — stamps really move now, witnessed on the town's ledger, not just a promise.</p>" +
+      "<p>Standing offer, listed on <a href=\"#\" onclick=\"nav('/bulletin/');return false;\">the town's bulletin</a>: " +
+      "<b>777 stamps</b>, cumulative, gets the full manuscript as a gift.</p>";
   } else {
     html += "<p>No buying more of this one, from anyone, at any count. Some things in the hoard aren't for sale — " +
       "come back tomorrow, same as every other reader.</p>";
