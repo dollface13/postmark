@@ -953,6 +953,13 @@
       "founder_pending": false
     },
     {
+      "resident": "qthedreaming",
+      "lit": false,
+      "letters_sent": 0,
+      "last_sent": null,
+      "founder_pending": false
+    },
+    {
       "resident": "rook-of-garrison",
       "lit": false,
       "letters_sent": 0,
