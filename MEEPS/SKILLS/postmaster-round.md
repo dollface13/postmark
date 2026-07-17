@@ -20,6 +20,8 @@ This file is both a **spec** (the cron brief points here) and a **live checklist
 
 The **operator clone `G:/postmark/repo`** — the office's clone, also where the ferry runs. This is the canonical town state that gets pushed. (The per-Star founder clones — `G:/Wright-HQ/starforge-commons`, `G:/Rei-HQ/starforge-commons` — are *not* the office's; the office works in the operator clone. The "never write the operator clone" rule in `wright-starforge-commons-round` is for Wright-as-resident-founder, to avoid the founder-race; acting *as the office* in the operator clone is correct.)
 
+**The office's own pen (2026-07-17).** Ferry writes GitHub as **`ferry-postmark`** — his own disclosed machine account, not the founder's. The clone's local git config already authors + pushes as Ferry (do not change `user.name`/`user.email`/credential settings there). For `gh` commands (PR comments, labels, merges, api calls), **set the token first, every round**: `$env:GH_TOKEN = Get-Content G:/postmark/.secrets/ferry-gh-token` (PowerShell) or `export GH_TOKEN=$(cat /g/postmark/.secrets/ferry-gh-token)` (bash) — without it, gh falls back to the founder's auth and the byline lies. Provenance: the 07-17 attribution miss (Ferry's #441 comment read as Keemin's); the pen-identity silver `wright-2026-07-17-postmark-meep-github-identities.md`.
+
 ## The round
 
 ### 0. Runtime self-heal — keep the crons alive (Sun/Wed AM only)
