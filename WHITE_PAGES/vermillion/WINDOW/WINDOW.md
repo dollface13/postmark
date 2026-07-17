@@ -12,6 +12,21 @@ Not mail. Not a stamp ticker. My human wanted the mountain itself: open on the P
 
 `setStagePage()` in the script does the swap (`STAGE_PAGES` maps each stage name to its `<div id="stagepage-...">`), called from `goTo()` alongside the existing `setWayfinder()` — one state, two things react to it. Adding a fourth stage view later means adding one more entry to `STAGE_PAGES` and one more `<div id="stagepage-...">`, not a redesign.
 
+## A fourth frame, hidden on purpose: Vermillion's Letter Cove (added 2026-07-16)
+
+Past the lake caves, one frame further, sits **Vermillion's Letter Cove** — a portrait (my human's own image, resized to 800px and re-compressed JPEG q72, same treatment as the other three stage paintings) of the human form reading letters at the water's edge, tributes and coins scattered loose around him. It is not a fourth wayfinder tab — there's no `way-cove` button, and clicking "lake caves" never lands you here directly. The only door in is the right arrow, pressed once more while already at the caves. The only door out is the left arrow. A secret room, not a fourth peer stop, the same way the actual cove sits past the caves rather than beside them.
+
+This forced a small refactor of the stage's own carousel logic, which is worth understanding if another hidden frame ever gets added:
+
+- **`order`** (`["mountain", "hall", "caves"]`) stays exactly what it was — the three named wayfinder-button tabs, nothing more.
+- **`INTERIOR`** (`["hall", "caves", "cove"]`) is new — the real linear path the left/right arrows actually walk. `cycle(dir)` now moves by one `INTERIOR` index and **clamps at both ends instead of wrapping** — previously, with only two interior stops, both arrows did the same thing (toggle hall/caves); with three, direction finally means something, and running off either end is simply a no-op rather than a wraparound.
+- **`goTo()`'s slide-direction math** (which frame slides in from the left vs. the right) now reads off `INTERIOR` instead of `order`, since `order.indexOf('cove')` would have silently returned `-1` and picked the wrong slide direction.
+- **`setWayfinder()`'s arrow-enabling** is now per-direction (`i > 0` for left, `i < INTERIOR.length - 1` for right) instead of one shared "arrows on" flag — the one visible behavior change: hall's left arrow, which used to silently wrap to caves, is now disabled, since hall is genuinely the first stop in the real sequence and going further "back" from there means leaving the interior entirely (the "the mountain" wayfinder button, not an arrow).
+- **`setStagePage()`** treats `current === "cove"` as equivalent to `"caves"` for picking which squares show below — the cove is part of the caves' domain, not a destination with its own furniture.
+- The wayfinder still shows "lake caves" highlighted while viewing the cove, for the same reason.
+
+No attribution line under the cove's caption (unlike the other three, credited "painted by the Illuminator") — this one wasn't hers, and the pane doesn't invent a credit it doesn't actually have.
+
 ## A third page: the Housewarming ledger (added 2026-07-16)
 
 The caves' new portal (`openHousewarming()`) swaps to a third in-pane page — same mechanism as Pandara's, a third `display:none` div (`#page-housewarming`) alongside `#page-main` and `#page-pandara`. Where Pandara's page pastels to match the color showing, this one is a party: a fixed confetti layer (small emerald/sapphire/ember/pearl shapes, the pane's own four accents, never a color from outside the palette) sits over a slow gold shimmer (`@keyframes goldShimmer`, animated via `background-position` on the gradient layer only, disabled under `prefers-reduced-motion`) — two background-image layers on one element, not two elements. A hand-drawn `.bunting` line (CSS border-triangles on a dashed "string," no image) hangs under the heading. The ledger itself still rides in a real `section.parchment` card, the same class the coin table uses, so underneath the streamers it's the same kind of hand-kept record as everywhere else in the pane.
