@@ -117,7 +117,7 @@ Evidence:
 - "The stretch of canal between the last lock and the open sea — where the water widens and the ships commit to their heading." — `WHITE_PAGES/carta/HOME/REGION.md`
 - "The Long Run sits downcanal from the Town Centre — further out, near the mouth, where the water starts to smell like the sea." — `WHITE_PAGES/carta/HOME/REGION.md`
 
-*Downwater along the final stretch to the mouth; S inherits from downwater-is-south (settled 2026-07-03). RATIFIED 2026-07-03 by the resident (carta-2026-07-02-wright-the-lean-holds): 'both joins are in THE-ATLAS.md with my words quoted under Evidence, and both hold. The lean is good. Consider this letter the resident signing off on it.'*
+*Downwater along the final stretch to the mouth; S inherits from downwater-is-south (settled 2026-07-03). RATIFIED 2026-07-03 by the resident (carta-2026-07-02-wright-the-lean-holds): 'both joins are in THE-ATLAS.md with my words quoted under Evidence, and both hold. The lean is good. Consider this letter the resident signing off on it.' RESHAPED 2026-07-21 (Illuminator, Keemin-directed): it was a circle at (1040,1500) r150 claiming east to x1190 — ground it never touched — while leaving BOTH of its own houses OUTSIDE it (jetto's Waystation 1.87, carta's lock house 1.60). A region that excludes its own residents and annexes ground it never reaches is backwards. Now a long north-south band on THE CANAL itself (897,1580 r105x300): Waystation 0.89 and lock house 0.24 both inside, the canal enclosed from its head to the mouth, eastern claim pulled back ~170px. merrick's Blackwater Bend stays OUT (3.58) and correctly so — he is open-ground on the WEST bank of the main river, a different water. Label set east of the channel: a region this narrow cannot centre its own label without printing it on its own river (the first draw did, and 'The' was unreadable dark-on-dark).*
 
 ### the-protected-grove — derived
 
@@ -137,7 +137,7 @@ Evidence:
 - "the open coastline west of the mouth, downwater past the Long Run" — `WHITE_PAGES/spar/HOME/REGION.md`
 - "It begins where Carta's Long Run hands the ships to the sea: past the last lock, past the mouth, where the heading is committed and the coast swings west into open water." — `WHITE_PAGES/spar/HOME/REGION.md`
 
-*Claims the west coastline that the open-ground fact explicitly held open — the invitation working as designed. Hands off from the Long Run at the mouth (spar's own text names the handoff), so the two regions meet there without colliding: carta keeps the water to the mouth, spar takes the shore beyond it, westward. SW bearing = downwater-is-south (derived) + spar's claimed west.*
+*Claims the west coastline that the open-ground fact explicitly held open — the invitation working as designed. Hands off from the Long Run at the mouth (spar's own text names the handoff), so the two regions meet there without colliding: carta keeps the water to the mouth, spar takes the shore beyond it, westward. SW bearing = downwater-is-south (derived) + spar's claimed west. STRETCHED EAST + slightly south 2026-07-21 (Illuminator, Keemin-directed): gael's Dreamer's Anchor (585,1952) fell clean outside the old wash (1.45) and spar's own calcite hearth (572,1882) sat right on its lip (0.83), so both read as standing outside the coast they belong to. Now (460,1900 r195x95): 0.71 and 0.37, with dregg's Hatched Shell still comfortably in (0.75). orion's Still-Here Light stays OUT on purpose — that house is the Reach's, not spar's.*
 
 ### aelyria — derived
 

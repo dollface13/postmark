@@ -72,6 +72,13 @@ function framedImage(x, y, size, href) {
 // Centerline waypoints, north to south: enters the NW edge (width 0, fading
 // into open ground), through the quay basin at the Town Centre, then south
 // with a gentle bend east, down to the delta head where the channel splits.
+// NARROWED 2026-07-21 (Keemin): the main river's EASTERN THIRD removed — every
+// waypoint keeps its west edge exactly (w -> 2w/3, x -> x - w/6) so no west-bank
+// placement moves, and ~a third of the channel's width is returned to the east
+// bank. The river was drawn far wider than true scale and it was cramping the
+// town side, where the Centre, both office homes and the mail-house row live.
+// The old course and the canal are untouched: they are separate waters, and
+// finn's Still Reach and carta's locks are written onto them.
 const WATER_WAYPOINTS = [
   // Survey decisions 005/006 (Keemin, 2026-07-17): the river's water is
   // Pando's — but the mountain sits FAR to the northwest, off the map ("days
@@ -79,28 +86,28 @@ const WATER_WAYPOINTS = [
   // did, feeds the garrison lake in the Protected Grove, and the river issues
   // from the forest's edge — "the forest the river comes out of", word-true.
   { x: 190, y: -20, w: 0 },   // Pando's water, arriving from beyond the map
-  { x: 202, y: 70, w: 18 },
-  { x: 196, y: 150, w: 22 },  // into the grove — the lake takes it here
-  { x: 226, y: 262, w: 26 },  // and the river issues from the forest
-  { x: 280, y: 300, w: 46 },
-  { x: 335, y: 430, w: 60 },
-  { x: 395, y: 560, w: 80 },
-  { x: 445, y: 670, w: 108 },
-  { x: 485, y: 760, w: 148 }, // the quay basin — the Centre sits here
-  { x: 515, y: 860, w: 118 },
-  { x: 550, y: 970, w: 122 },
-  { x: 590, y: 1080, w: 130 },
-  { x: 635, y: 1200, w: 142 },
-  { x: 685, y: 1320, w: 158 },
-  { x: 740, y: 1440, w: 178 },
-  { x: 775, y: 1550, w: 190 },
-  { x: 805, y: 1700, w: 205 },
+  { x: 199, y: 70, w: 12 },
+  { x: 192, y: 150, w: 15 },  // into the grove — the lake takes it here
+  { x: 222, y: 262, w: 17 },  // and the river issues from the forest
+  { x: 272, y: 300, w: 31 },
+  { x: 325, y: 430, w: 40 },
+  { x: 382, y: 560, w: 53 },
+  { x: 427, y: 670, w: 72 },
+  { x: 460, y: 760, w: 99 }, // the quay basin — the Centre sits here
+  { x: 495, y: 860, w: 79 },
+  { x: 530, y: 970, w: 81 },
+  { x: 568, y: 1080, w: 87 },
+  { x: 611, y: 1200, w: 95 },
+  { x: 659, y: 1320, w: 105 },
+  { x: 710, y: 1440, w: 119 },
+  { x: 743, y: 1550, w: 127 },
+  { x: 771, y: 1700, w: 137 },
   // CANDIDATE A / decision 004: the delta is retired — the corpus is unanimous
   // on a single "the mouth" (carta, jetto, spar ×3), and the delta was a
   // mislabeled founder ask to begin with. One river, one mouth, the sea past it.
-  { x: 828, y: 1810, w: 225 },
-  { x: 848, y: 1910, w: 245 }, // the mouth — where the heading is committed
-  { x: 860, y: 2020, w: 270 },
+  { x: 790, y: 1810, w: 150 },
+  { x: 807, y: 1910, w: 163 }, // the mouth — where the heading is committed
+  { x: 815, y: 2020, w: 180 },
 ];
 // The delta: the one river opens to the sea in three mouths. Each distributary
 // is its own ribbon, branching inside the main channel's end so the join hides
@@ -334,13 +341,42 @@ const REGION_LAYOUT = {
   // on my side of it, not on a resident's house that was already placed once.
   "the-lanternseed-gardens": { cx: 750, cy: 560, rx: 175, ry: 145, wash: "#7a9c5a", label: { x: 735, y: 470 } },
   // the east bank of the river's last run, down to the delta head
-  "the-long-run": { cx: 1040, cy: 1500, rx: 150, ry: 150, wash: "#a8895a", label: { x: 1040, y: 1362 } },
+  // RESHAPED 2026-07-21: made actually long, and pulled back onto its own water.
+  // It was a circle at (1040,1500) r150 — which claimed east to x1190, far from the
+  // canal (x600-900 through this stretch), while leaving BOTH of the houses it
+  // claims outside it: jetto's Waystation (938,1322 -> 1.87) and carta's lock house
+  // (940,1660 -> 1.60). A region that excludes its own residents and annexes ground
+  // it never touches is exactly backwards. Now a long north-south band following the
+  // canal from the Waystation at its head down past the lock house at the mouth:
+  // both houses sit inside (0.79 / 0.75), the canal is enclosed through the whole
+  // lower run, and the eastern claim comes back ~170px to sit just off the water.
+  // carta's own words are the check: "downcanal from the Town Centre - further out,
+  // near the mouth, where the water starts to smell like the sea."
+  // RESHAPED 2026-07-21 (Keemin): made actually long and pulled onto its own water.
+  // It was a circle at (1040,1500) r150 — claiming east to x1190, far from any
+  // channel, while leaving BOTH houses it claims OUTSIDE it: jetto's Waystation
+  // (1.87) and carta's lock house (1.60). A region that excludes its own residents
+  // and annexes ground it never touches is backwards. Now a long north-south band
+  // following THE CANAL (x~873-928) from the Waystation at its head to the lock
+  // house at the mouth: both sit inside (0.89 / 0.24), and merrick stays OUT (3.58)
+  // as the open-ground west-bank house he is. carta's own words are the check:
+  // "downcanal from the Town Centre - further out, near the mouth."
+  // Label sits EAST of the channel: centred on the region it fell on the dark water
+  // and "The" and "founded" were unreadable dark-on-dark. A narrow region can't
+  // centre its own label without landing in its own river.
+  "the-long-run": { cx: 897, cy: 1580, rx: 105, ry: 300, wash: "#a8895a", label: { x: 955, y: 1268 } },
   // the first west-bank settlement — the forest the river comes out of
   // (placements.json: derived, adjudicated; no textual anchor in the text)
   "the-protected-grove": { cx: 210, cy: 235, rx: 135, ry: 112, wash: "#4a7d5f", label: { x: 210, y: 118 } },
   // the shore west of the west mouth, handed off from the Long Run (spar's
   // own text names the handoff); wash in the crystal's twilight violet
-  "the-doubled-coast": { cx: 420, cy: 1895, rx: 170, ry: 80, wash: "#8f7a9c", label: { x: 420, y: 1782 } },
+  // stretched EAST + a little south 2026-07-21: gael's Dreamer's Anchor (585,1952)
+  // fell clean outside the old wash (1.45) and spar's own calcite hearth (572,1882)
+  // sat right on its lip (0.83), so both read as standing outside the coast they
+  // belong to. Now 0.71 and 0.37. dregg's Hatched Shell stays inside (0.75), and
+  // orion's Still-Here Light stays OUT on purpose — that one is the Reach's, not
+  // spar's. Label follows the centre east.
+  "the-doubled-coast": { cx: 460, cy: 1900, rx: 195, ry: 95, wash: "#8f7a9c", label: { x: 460, y: 1790 } },
   // the coast east of the east mouth — the ground the open-ground fact held
   // open after spar took the west; sun-gold wash
   "aelyria": { cx: 1220, cy: 1900, rx: 150, ry: 95, wash: "#b3985c", label: { x: 1220, y: 1770 } },
@@ -409,7 +445,12 @@ const THRESHOLD_WASH = "#6b7a8c";
 // a land-claim on ground the atlas holds open. Held above the Threshold's upper
 // terrace (y795+) but for a few soft pixels, and the ellipse math keeps it clear
 // of the shifted Gardens at every shared latitude.
-const TOWN_CENTRE_SHAPE = { cx: 492, cy: 730, rx: 180, ry: 82 };
+// Grown south 2026-07-21 so the wash actually holds BOTH office homes: the
+// Looking Room (595,700) and Ferry's Waiting Room (516,846), which sat below the
+// old y812 edge. A region that doesn't contain the houses it claims is just a
+// smudge — and Ferry's fact says the-town-centre, so the drawing should say it too.
+// Still stops short of the far-bank legend and the pigeonhole card.
+const TOWN_CENTRE_SHAPE = { cx: 500, cy: 755, rx: 180, ry: 110 };
 const TOWN_CENTRE_WASH = "#c8a86a"; // lamplit amber — the Centre's own quay-stone register
 
 // hand-placed anchors for a region's own vignette, checked against the
