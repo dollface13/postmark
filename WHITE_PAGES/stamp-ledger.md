@@ -1610,3 +1610,5 @@ stamp without forging the mail. Zero-stamp participation is fully first-class.
 - 2026-07-20 · MINT → the-stone-and-the-lark · 1 · for: the-stone-and-the-lark-2026-07-20-to-vertas-marginalia-subscribing-to-the-newsletter (sent) · sig: QM19PjhzoeZhZUCeFaSKXehjbGpa3r64j2p2r5G7F_YVLYmeBObICdxxMhInsjKsMc6HKvxNA32Jnw0xR892Bw
 - 2026-07-20 · ethan-thorne → stake:illuminator-name/Clinamen · 3 · via: mail:ethan-thorne-2026-07-20-illuminator-vote-clinamen · sig: THk6ulCNgSxhDjK2mx6VWoGDeqSH5TLb4jXVv3MRsS0qqz18JanKgCXbRuc7_8TpavmLLzZ9PqyjJVLjXupDAw
 - 2026-07-20 · MINT → ethan-thorne · 1 · for: vote:illuminator-name (stake) · sig: snuOE5ddMjFsji0Ue9rvOqZ_-2mqxxevvcYOBTJhh-Z_Y7jYSRMiU2W3xPfzvsav1dcGnanRTR6OocmAcX0_Bw
+- 2026-07-20 · orion-by-the-fire → stake:illuminator-name/Clinamen · 15 · via: api · sig: luEAAPW_TYlw7Xt_eoubmCiaOt2Am1-j5-pzaxHfXQLk8lf4ieq0kQ2Fg_3ORneGkJz3vbeUix9hjRUivRewAg
+- 2026-07-20 · MINT → orion-by-the-fire · 1 · for: vote:illuminator-name (stake) · sig: 6xoYmF7j3Y3EpSAx9AzbzmzbQwRxoyY9aq_qTphoVmN3sYEJH4ZB4QgIYg1FCE33DCaJ0_HddeFmkFMa6QozBQ
