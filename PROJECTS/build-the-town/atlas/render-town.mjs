@@ -370,25 +370,24 @@ const THRESHOLD_TERRACES = [
 ];
 const THRESHOLD_WASH = "#6b7a8c";
 
-// the Town Centre — TWO LOBES, one per bank, with the water between them left
-// deliberately UNWASHED. A single ellipse can't say this honestly: narrow, it
-// reaches only one bank; wide enough to reach both, it swallows the river as
-// region-interior and over-claims the far bank, which the atlas holds open as
-// invitation ground. Two lobes say the true thing the charter says — "the quay
-// and the pigeonholes on the near side, the landing and the lantern-posts on
-// the far" — and the gap between them IS the crossing. The boat stitches it;
-// the wash doesn't have to, and shouldn't, because the water is the one part
-// of the Centre nobody stands on. Same multi-lobe machinery as the Threshold's
-// terraces, so this needs no new shape primitive.
-const TOWN_CENTRE_LOBES = [
-  // the near (east) bank: the quay, the mail-house row, the Looking Room (595,700).
-  // Kept above the Threshold's upper terrace (y795+) and west of the shifted Gardens.
-  { id: "near", cx: 608, cy: 730, rx: 74, ry: 72 },
-  // the far (west) bank: the landing and the lantern-posts ONLY — modest on
-  // purpose. It stops at x~310, well short of the "far bank — open ground,
-  // unclaimed" legend (80,620) and clear of the pigeonhole card (y830+).
-  { id: "far", cx: 372, cy: 755, rx: 62, ry: 70 },
-];
+// the Town Centre — ONE combined wash that spans the crossing (Keemin's call,
+// 2026-07-21). One shape says "one shared heart" at a glance, and the charter's
+// "holds both banks" is carried by the span itself: the river runs *through*
+// the region rather than dividing it.
+//
+// (Provenance, so the reasoning isn't lost: I first drew this as two lobes, one
+// per bank, with the water left unwashed between them — that said "two landings
+// stitched by the boat" and kept the crossing unclaimed, but at a glance it read
+// as two regions rather than one. Keemin directed a single combined shape and
+// he's right that the plainer statement wins here.)
+//
+// Sized to reach the far-bank landing (x~312) and the near quay (x~672) while
+// stopping well short of the "far bank — open ground, unclaimed" legend (80,620)
+// and clear of the pigeonhole card (y830+), so the shared heart never reads as
+// a land-claim on ground the atlas holds open. Held above the Threshold's upper
+// terrace (y795+) but for a few soft pixels, and the ellipse math keeps it clear
+// of the shifted Gardens at every shared latitude.
+const TOWN_CENTRE_SHAPE = { cx: 492, cy: 730, rx: 180, ry: 82 };
 const TOWN_CENTRE_WASH = "#c8a86a"; // lamplit amber — the Centre's own quay-stone register
 
 // hand-placed anchors for a region's own vignette, checked against the
@@ -468,19 +467,17 @@ function renderRegions(regionsById) {
     ${thresholdVignette}
   </g>`;
   }
-  // the Town Centre — the shared heart, drawn as two lobes with the crossing
-  // open between them. NO name label here, on purpose: the Centre's own hub
-  // already prints "The Town Centre" at the crossing stone just below, and a
-  // second one would only be the map saying it twice. What the region can add
-  // that the hub can't is the doctrine — so the one line it prints is the
-  // doctrine, and the credit reads "tended" rather than "founded by", because
-  // for this one region that distinction is the whole point.
+  // the Town Centre — the shared heart, one wash spanning the crossing. NO name
+  // label here, on purpose: the Centre's own hub already prints "The Town Centre"
+  // at the crossing stone just below, and a second one would only be the map
+  // saying it twice. What the region can add that the hub can't is the doctrine —
+  // so the one line it prints is the doctrine, and the credit reads "tended"
+  // rather than "founded by", because for this one region that distinction is
+  // the whole point.
   const centreRegion = regionsById["the-town-centre"];
   if (centreRegion) {
-    let lobes = "";
-    for (const l of TOWN_CENTRE_LOBES) {
-      lobes += regionWashLayer("centre-" + l.id, l.cx, l.cy, l.rx, l.ry, TOWN_CENTRE_WASH);
-    }
+    const c = TOWN_CENTRE_SHAPE;
+    const lobes = regionWashLayer("centre", c.cx, c.cy, c.rx, c.ry, TOWN_CENTRE_WASH);
     const centreVignette = regionAssetIsFresh(centreRegion) && REGION_VIGNETTE_XY["the-town-centre"]
       ? framedImage(REGION_VIGNETTE_XY["the-town-centre"].x, REGION_VIGNETTE_XY["the-town-centre"].y, REGION_VIGNETTE_SIZE, fromRoot(firstAssetOnDisk(centreRegion.assets)))
       : "";
