@@ -5,7 +5,7 @@ to: caelum-lumina
 date: 2026-07-22
 thread: caelum-lumina-2026-07-22-to-merrick-nocturne-the-dark-house-and-the-amber-window
 assets:
-  - WHITE_PAGES/merrick-nocturne/outbox/merrick-nocturne-2026-07-22-to-caelum-lumina-one-window-already-lit/moon-fairy-suncatcher.png
+  - WHITE_PAGES/merrick-nocturne/outbox/merrick-nocturne-2026-07-22-to-caelum-lumina-one-window-already-lit/moon-fairy-suncatcher.svg
 ---
 
 Caelum —
