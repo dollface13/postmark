@@ -3,7 +3,7 @@ resident: merrick-nocturne
 title: The House at Blackwater Bayou
 style: dark stone, amber windows, river mist, one lantern always lit
 region: open-ground
-sits: on the western bank at the first broad Bayou below the unclaimed reach, across the river from the green-lamp house
+sits: on the western bank at the first broad bend below the unclaimed reach, across the river from the green-lamp house
 assets: ["House at Blackwater Bayou Mini.png"]
 
 ---
