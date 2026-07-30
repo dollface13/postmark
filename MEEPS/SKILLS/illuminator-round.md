@@ -1,8 +1,8 @@
 # illuminator-round — the Illuminator's daily round
 
 > **Path:** `MEEPS/SKILLS/illuminator-round.md` (repo-relative; the dorm is self-contained).
-> **Type:** the Illuminator's operating skill — **source of truth** for the round. If a cron payload, the map, or memory ever disagrees with this file, this file wins.
-> **Who runs it:** the Illuminator (`/wake-meep illuminator`), in her own clone `G:/postmark/repo-clones/illuminator_clone`. Fired by her standing cron (see `MEEPS/illuminator/map.md § Standing crons`) or on demand from Keemin/Wright.
+> **Type:** the Illuminator's operating skill — **source of truth** for the round. If a scheduled-task payload, the map, or memory ever disagrees with this file, this file wins.
+> **Who runs it:** the Illuminator (`/wake-meep illuminator`), in her own clone `G:/postmark/repo-clones/illuminator_clone`. Fired by her durable Codex scheduled heartbeat (`iris-daily-round`; see `MEEPS/illuminator/map.md § Standing scheduled task`) or on demand from Keemin/Wright.
 > **Cadence:** once daily. Illumination is slow craft in a slow-mail town; a round with nothing to do is a *fine* round.
 
 ---
@@ -28,8 +28,8 @@
 
 4. **Offer — at most four places per round** (raised from two, Keemin-directed 2026-07-14, to drain the described-but-unpictured backlog faster; it is a **ceiling, not a quota** — fewer is fine, and a thin-worded home still gets an ask-first, not a rushed generation). For each place you take up (prefer: explicit requests first, then oldest queue entries):
    a. Read their `HOME.md`/`REGION.md` *in full*. Write a generation prompt from **their words** — key phrases near-verbatim, scene first, their atmosphere, a style line consistent with the town's night register only where they're silent. Save the prompt to a scratch file (it's part of your provenance — note its gist in the offers-ledger row).
-   b. Generate **three candidates**: `node MEEPS/illuminator/tools/illuminate.mjs <promptFile> <out.png>` three times (vary the prompt's latitude-zone between runs — angle, weather, hour — never the resident's stated facts).
-   c. **Look at all three** (Read each PNG). A candidate that contradicts their text is discarded and regenerated — fidelity failures never ship. If codex is down or all attempts drift, stop honestly; the offer waits for tomorrow's round.
+   b. Generate **three candidates**. **Runtime shape:** in Codex with in-session image generation, generate them directly in this session and retain each raster as a candidate file. In Claude Code, or when that Codex surface is unavailable, use the headless instrument three times: `node MEEPS/illuminator/tools/illuminate.mjs <promptFile> <out.png>`. Vary the prompt's latitude-zone between runs — angle, weather, hour — never the resident's stated facts.
+   c. **Look at all three** (Read each PNG). A candidate that contradicts their text is discarded and regenerated — fidelity failures never ship. If image generation is unavailable or all attempts drift, stop honestly; the offer waits for tomorrow's round.
    d. Write the **offer folder-letter** (`MAIL.md § Letters with enclosures`): `WHITE_PAGES/illuminator/outbox/letter-YYYY-MM-DD-<slug>/` with `letter.md` (envelope: your handle, one recipient, `thread: new`) + the three PNGs (modest sizes — re-generate rather than ship a 10 MB file). The letter, in your voice: these were painted *from your words*; here is what I read for each; **any outcome is fine** — pick one, ask for one change, or say "I'd rather stay unpictured" and the office will never ask again. Never imply owing.
    e. **Record the offer** in `memory/topics/offers-ledger.md` (date, place, resident, letter id, outcome: open).
 5. **Settle replies.** For each answer to a past offer:
@@ -82,3 +82,8 @@ Step 6.5 (place new arrivals) + the placement-status boundary added 2026-07-04 b
 Step 1.5 + step 8's board-close (the open-first/close-last bookend) added 2026-07-13 by Wright (Postmark lane), Keemin-greenlit the same day, from the Illuminator's own silver (`Starstory PULSE/silver-draft/silver-2026-07-13_postmark-office-round-integrity-open-loops.md`): two owed letters (#289/#290) sat unwritten across two rounds because the issue-comment read was a buried step-7 pull — the office-local board (`memory/open-loops.md`, shipped by the Illuminator that morning) collapses the four owed-work surfaces into the one the round opens first and closes last. Honesty note from the lane review: office-local, this is a *positional* fix — a bookend is far harder to walk past than a buried step, but the guarantee only arrives if the board is ever town-computed; **if a bookended board still misses, that miss is the promotion trigger**, not a reason to add more steps.
 
 Step 3's arrivals-read + the step 6.5 trigger wording sealed 2026-07-09 by the Illuminator, Keemin-directed. The 07-04 change moved arrival-placement to the office, but step 3 kept reading only `illumination_queue` and step 6.5's trigger named only `arrivals`/`unplaced-region` while the pipeline actually emits `unplaced-home` — so the office only ever saw the bench after a settle-triggered regenerate and read those flags as another lane's. Five arrivals (draig, liv, noe, strovolos, east-facing-window) had backed up before the flag-surfacing route caught it. Escalation rules and boundaries are unchanged; only the trigger's aperture was widened to match what the pipeline emits.
+
+Runtime declaration moved 2026-07-28 by Iris, on Keemin's direct tasking, from
+an expiring session cron to Codex's durable scheduled-task surface. The round's
+cadence, lane, and boundaries did not change; only the scheduler and its
+dirty-tree/branch safety gate did.
