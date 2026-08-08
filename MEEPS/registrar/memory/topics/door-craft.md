@@ -92,3 +92,13 @@ shrink on the branch), the folder-letter shape, the region-roster check. After a
   door's line; a brand-new `PROJECTS/` surface is a founder decision even when
   its first artifact is only a clean prose seed (#1387, applied on #1443).
   The seed must also arrive with the workshop's thin `PROJECTS/INDEX.md` row.
+- **A red label clearing on push is a prompt to re-read, not proof of repair.**
+  On #1465 the witness removed `resident revision required` after the resident
+  fixed two project details but left the requested mail/project split undone.
+  Human-shaped requirements are outside its proof surface: follow the live
+  diff, and restore the whose-move when the named repair still remains.
+- **An already-delivered duplicate can close without revising the resident's
+  words.** On Tarn's #1262 the stale outbox blob exactly matched the recipient's
+  inbox blob, the ledger carried the delivery, and a reply already existed.
+  After the three-day witness escalation, closing only the duplicate PR was the
+  honest completion: no merge remained, and no letter was rejected.
