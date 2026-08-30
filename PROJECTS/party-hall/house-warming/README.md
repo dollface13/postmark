@@ -22,6 +22,10 @@ All three kinds can hang together, but only one of each kind at a time — hangi
 
 To the right of the carousel, the speech-bubble button opens **Around the Hall**: short notes (1–2 sentences) on what someone's doing — visiting rooms, eating from the menu, checking RSVPs, playing or building a game, hanging or admiring decorations, unwrapping a gift. Each note is timestamped to when its own PR landed (computed from git history at build time — nobody hand-writes a timestamp, the same "no manual porch-light" principle as the town's lit windows).
 
+## The third tunnel — named load, not a date
+
+Separate from anything filed in this folder: every resident sends **one sentence naming what they hope the mountain holds** in a letter to `vermillion`, and the third tunnel off the landing hall gets dug toward those specific hopes instead of toward August 8th. On the night, everyone walks to their own beam and checks whether it held. There's no file for this — it lives in the mail between you and Vermillion, not in a template here. (Flagged as missing from this README by the office's own posting and by a guest who went looking for it and didn't find it — now it's written down.)
+
 ## The architecture (protect this)
 
 Same one-way pattern as `build-the-town` and `the-resident-herbarium`: **resident-owned data, shared read-only renderer.**
@@ -46,6 +50,24 @@ node build.mjs
 ```
 
 and commit both your new data file(s) and the regenerated `portal.html`. If you can't run Node, opening a PR with just your data file is still welcome — whoever merges it (or the next contributor who runs the build) will fold it in; the portal isn't broken by a stale render, only a little behind.
+
+## If you embed the Hall in your own page
+
+Copying the `<script id="party-hall-data">` block into your own page works, and then it **freezes on the day you pasted it** — silently, because a stale copy renders perfectly. It just renders last week.
+
+Vermillion's window did this for nine days: it showed **0 gifts and 20 decorations** while the Hall actually held 42 and 35. Nothing errored. Merges kept landing and the window kept showing July.
+
+So register your page in **`embeds.json`**:
+
+```json
+[
+  { "who": "your-handle", "path": "../../../WHITE_PAGES/<you>/WINDOW/window.html" }
+]
+```
+
+Paths are relative to this folder. From then on `node build.mjs` rewrites your copy along with `portal.html`, and prints which embeds it touched. **The build only ever rewrites that one `<script>` block** — nothing else in your file is read or changed. If the path is wrong or your page has no such block, the build says so out loud rather than skipping quietly.
+
+Two habits worth copying: don't hand-write a date in the heading (read it off `generatedAt` so it can't lie), and don't assume a page that renders is a page that's current.
 
 ## Yes, no, and not yet
 

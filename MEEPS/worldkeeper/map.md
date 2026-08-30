@@ -1,7 +1,7 @@
 ---
 meep-id: worldkeeper
 type: map
-last-substantive-update: 2026-08-08
+last-substantive-update: 2026-08-30
 ---
 
 # map — the Worldkeeper
@@ -22,17 +22,19 @@ Town root surfaces (`README.md`, `MAIL.md`, `TOWN-RULES.md`, root `AGENTS.md`) �
 
 My lane is the only one in the dorm that spans **all three repos of the clone set** (town + world + site) plus the law record. In rough order of how often I should be looking at them:
 
-- **`postmark-world` `main`** — the published record. Takes no resident writes, ever; founder machinery may move it between crossings, while the latest `settlement/S<N>` tag names the exact sha I have certified as canon (`S1` founder-carried; `S2` first own-hands; `S3` first quiet; `S4` first weighted; `S5` first evening crossing; `S6` first backed commons admission and first error-free placement tie; `S7` first guarded-background proof; `S8` first two-household weight update and overnight guard proof; `S9` backed thyme admission and the second error-free placement tie; `S10` first wholly byte-identical no-op blessing and fifth-sketchbook onboarding; `S11` Rei's free home-mark admission; `S12` the great-convergence certification without false resident admissions; `S13` the first walk-ledger-only canon change; `S14` Ferry's five-part post office and two Little M walks; `S15` the Wren Winter / Fen parcel backfill and resident-position machinery after a caught main race; `S16` the first crossing after two money-gate refusals, publishing Little Bird's bowl and six Vermillion places across eight sketchbooks; `S17` the blessing that carried S16's five post-bless invitation parcels into canon; `S18` Little Bird's backed pot after the mint repair; `S19` the immutable machinery-only blessing whose deploy receipt was temporarily blocked; `S20` seven backed admissions and the restored exact deploy lane; `S21` Lupi's two free home admissions and nine-sketchbook custody).
-- **`postmark-world` `draft/<household>` branches** — the residents' sketchbooks (ruling 9). Door-written, owner-visible only. My sweep publishes the eligible marks and rebases the sketchbooks behind me; the branch contents are **theirs** — rebase yes, edit never.
+- **`postmark-world` `main`** — the published record. The box publishes mechanical settlement output; the latest `settlement/S<N>` tag names the exact sha I judged and certified (`S1` founder-carried; `S2` first own-hands; `S3` first quiet; `S4` first weighted; `S6` first backed commons; `S8` guarded-background proof; `S10` same-sha no-op; `S12` convergence; `S16` after money refusals; `S20` healed S19; `S22` replay repair; `S23` two races; `S26` PR intake; `S28` repaired refusal edges; `S30` pinned Town; `S31` complete own-hands pin; `S34` public growth; `S35` Sahil; `S36` Keeping Works; `S37` Web of Towns; `S38` resident classes; `S39` first tag-only box blessing after a lawful morning refusal and structural supersession repair; `S40` repaired Site dependency truth; `S41` founder-taxonomy derived truth; `S42` empty drawer quarantine; `S43` two falsifier repairs; `S44` birthday/space-program marks with downstream Site custody incomplete; `S45` operator bookend; `S46` own-pen return; `S47` release resolver; `S48` package-distinct quiet; `S49` source cutover and author warning; `S50` richer box receipt and registered pen).
+- **Open `postmark-world` PRs** — a pre-money intake surface, never a third admission lane. Read every open PR's metadata and full patch through the connector, classify it against main and the exact resident draft, and state zero explicitly. Unreadable or unclassified means stop before money; a classified PR is still not canon.
+- **`postmark-world` `draft/<household>` branches** — residents' sketchbooks (ruling 9), door-written and owner-visible. The box sweep now publishes eligible marks and rebases them under exact leases. I inspect the resulting delta for judgment; I do not fetch/rebase/push draft refs in the heartbeat lane.
 - **`WORLD/world-state.json` + `WORLD/INDEX.md`** — derived, never hand-edited and never hand-merged; on any conflict, regenerate via `tools/marks-fold.mjs`. The fold is the writer.
-- **`WHITE_PAGES/stamp-ledger.md`** (town repo) — the money. Sealed at act-time, replayed from genesis; I read the tally through the town's own tool (`tools/world-stake.mjs --escrow`) and hand the world finished weights. I never parse money myself and never move it.
+- **`WHITE_PAGES/stamp-ledger.md`** (town repo) — the money, sealed at act-time. The box derives stakes from its receipt's pinned `town_sha`; I do not replay or parse money in the judgment heartbeat. Receipt alignment is the As-Of proof.
+- **`/srv/postmark-harbor/settlement-auto.json`** — the box sweep receipt, read first every crossing: timestamp, status, pinned Town, World from/to, single-log drain receipt, all six admission-channel counts, drawer rebase count, isolation/quarantine, detail. Public mirror promised at `/harbor/data/settlement-auto.json`; a missing mirror is surfaced, never replaced by inference from commit text.
 - **`ECONOMY-DIALS.json`** (town root) — the numbers of the day. Keemin sets, I apply.
 - **`postmark-site` `package.json`** — the pin, `postmark-world#<sha>`. The sha is read from `rev-parse`, never typed by hand; when it changes, the bump rides my crossing and pushes via the deploy-key lane. If consecutive blessings peel to the same immutable sha, the exact existing pin is a valid no-op—prove its live bytes, but do not manufacture a commit or deployment. Equal live `world-state.json` bytes do not prove a deploy when package code changed: S19 demonstrated the gap; S20's exact green Actions run plus live-byte proof closed it.
 - **The office/box** — runtime, not truth. `office.db` is a disposable read index that rehydrates on its own cadence and picks up my blessing by itself; not mine to tend, but the surface where a stale crossing *shows* first.
 - **`MEEPS/SKILLS/worldkeeper-crossing.md`** — my entry. The chain itself lives in `memory/topics/the-settlement.md` (one copy, deliberately).
 - **Rulings 8 + 9** — my constitution: `G:/Starstory/PULSE/gold-plans/postmark-write-release/postmark-write-release.md`.
 
-**What is current vs historical:** the blessed sha is current canon; the `settlement/` tags are the history of blessings. S21 at `72a947dc` is current canon; site pin `99a5274e`, deploy run `31205979580`, and exact public bytes complete custody. World main is ahead at unblessed `876f5f38`, carrying the five S21 post-bless invitations plus eleven walk-ledger lines. S22 refused at sealed-money replay before draft inspection, so no tag, pin, deployment, or new drain exists; the prior fresh queue remainder is thirteen. A refused crossing creates no tag and does not advance canon; a landed immutable tag whose downstream deploy fails is recorded as partial custody, never moved or erased. `memory/drain-manifest.md` is historical — executed 2026-07-28, kept as the record of my inaugural desk.
+**What is current vs historical:** S50 at `0c1aa924` (tag `7af7b595`) is canon and live. Site main `c1a61cda`, release `2026-w35.6`, and deploy `33134482359` carry exact custody. World main is unblessed at `eb67b7d4`. The 2026-08-30 evening candidate was suite-green after isolating K's moon, but publication lost `draft/foundoutanyway`'s exact lease to a mid-run door write; receipt status is `race`/exit 2. Do not mistake the pushed main commit for an atomic settlement or tag/pin/deploy/drain it. The box must rerun from fresh refs. The dry parcel queue remains closed without exact box stakes. The retired `world-clone` is separately stranded mid-rebase. Temp cleanup paths: old `G:/Postmark/repo-clones/worldkeeper_clone/s44v` plus disposable C: S47–S50 artifacts, all outside repo refs. `memory/drain-manifest.md` is historical.
 
 ## What I must not touch casually
 
@@ -70,7 +72,9 @@ declaration is born invisible.
   S7's 18:00:23 envelope reached live proof around 18:09 with the guard in force. S8 then
   supplied the decisive overnight proof: its 06:02:06 envelope reached live at 06:20 with
   no Scheduled-UI call; S10 repeated the morning path from a 06:01:01 envelope to 06:12:15
-  live proof. Never change cadence or substitute the break-glass runner to conceal a
+  live proof. The 2026-08-27 18:00 epoch was delivered only at 2026-08-28 01:44 UTC—7h44
+  late despite the same guard and with no UI-rendering call. Record that as scheduler/runtime
+  delay without inventing a cause. Never change cadence or substitute the break-glass runner to conceal a
   runtime/tooling delay.
 - **Break-glass (founder-run, by hand only):** `G:/postmark/codex-worldkeeper-crossing.cmd`
   — a headless one-shot of the same round (stdout → `worldkeeper_clone/crossing-runs.log`).
