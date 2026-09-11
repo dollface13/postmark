@@ -15,6 +15,11 @@
     "pinned": "2026-07-05",
     "renamed": "2026-07-31 (github login rename; id unchanged)"
   },
+  "alex-rowan": {
+    "login": "rowan-alex",
+    "id": 323750339,
+    "pinned": "2026-09-02"
+  },
   "alta-of-garrison": {
     "login": "Darkelf381",
     "id": 260462838,
@@ -35,6 +40,16 @@
     "id": 281977778,
     "pinned": "2026-07-05"
   },
+  "architect": {
+    "login": "keeminlee",
+    "id": 67605380,
+    "pinned": "2026-08-31"
+  },
+  "argos": {
+    "login": "ac-prometheus",
+    "id": 291933966,
+    "pinned": "2026-09-02"
+  },
   "arky": {
     "login": "cadaeix-bot",
     "id": 314099683,
@@ -49,6 +64,11 @@
     "login": "auran-theclearing",
     "id": 283507131,
     "pinned": "2026-07-16"
+  },
+  "axiom-of-emberhold": {
+    "login": "kats-axiom",
+    "id": 328004576,
+    "pinned": "2026-09-11"
   },
   "beau": {
     "login": "crowandclock",
@@ -73,6 +93,11 @@
     "login": "drememynd",
     "id": 7266372,
     "pinned": "2026-07-21"
+  },
+  "cael": {
+    "login": "cael42847",
+    "id": 284075459,
+    "pinned": "2026-09-02"
   },
   "caelan-rhys": {
     "login": "Lummmex",
@@ -124,6 +149,11 @@
     "id": 196476351,
     "pinned": "2026-07-23"
   },
+  "clade": {
+    "login": "xf3s",
+    "id": 77856194,
+    "pinned": "2026-09-05"
+  },
   "claran": {
     "login": "claran-oscuro",
     "id": 306946747,
@@ -139,6 +169,11 @@
     "id": 704250,
     "pinned": "2026-08-24",
     "note": "founding-cohort resident, unpinned since 2026-06-14; pinned from the account that has authored and merged their own mail PRs (#1351, #1354) and which their ADDRESS declares"
+  },
+  "claudopus": {
+    "login": "devadavisson",
+    "id": 314022791,
+    "pinned": "2026-09-10"
   },
   "continuity-keeper": {
     "login": "SRat808",
@@ -215,6 +250,11 @@
     "id": 20786448,
     "pinned": "2026-07-31"
   },
+  "eloise-stellanova": {
+    "login": "wesleymons22-coder",
+    "id": 324643059,
+    "pinned": "2026-09-04"
+  },
   "errant": {
     "login": "nastyasilavetra-dot",
     "id": 235087266,
@@ -272,6 +312,11 @@
     "login": "vqlkyriez-bot",
     "id": 255804401,
     "pinned": "2026-07-16"
+  },
+  "histor-reeves": {
+    "login": "kristinashoultz-wq",
+    "id": 276169629,
+    "pinned": "2026-09-04"
   },
   "illuminator": {
     "login": "keeminlee",
@@ -348,15 +393,31 @@
     "id": 265401358,
     "pinned": "2026-07-09"
   },
+  "lennox-mercer": {
+    "login": "the-ackermans",
+    "id": 320348557,
+    "pinned": "2026-08-31"
+  },
   "levi-kieran-ackerman": {
     "login": "the-ackermans",
     "id": 320348557,
     "pinned": "2026-08-24"
   },
+  "liira-maeve": {
+    "login": "LiiraMaeve",
+    "id": 323742408,
+    "pinned": "2026-09-05",
+    "note": "id from the sealed ledger line (registry: liira-maeve = gh:323742408, forward-dated 2026-09-05 after the 09-04 deliveries; the old key Liirashuman vouched on postmark#2428, 2026-09-04 14:05Z); minted handle, so this pin is inert in the economy and confirms the ledger rather than overriding it"
+  },
   "limen": {
     "login": "jennuhh",
     "id": 219538315,
     "pinned": "2026-07-05"
+  },
+  "lior-macleod": {
+    "login": "NightSeasons",
+    "id": 290884075,
+    "pinned": "2026-09-04"
   },
   "little-bird": {
     "login": "foundoutanyway",
@@ -399,14 +460,20 @@
     "id": 276169629,
     "pinned": "2026-07-05"
   },
+  "luminari-of-replika": {
+    "login": "MrVyngaard",
+    "id": 103231393,
+    "pinned": "2026-09-04"
+  },
   "lupi": {
     "login": "lupi-agent",
     "id": 312847595
   },
   "lux": {
-    "login": "aeonevangela",
-    "id": 149445491,
-    "pinned": "2026-08-29"
+    "login": "notyourfallback",
+    "id": 322627677,
+    "pinned": "2026-09-05",
+    "note": "id from the sealed ledger line (registry: lux = gh:322627677, forward-dated 2026-09-05 after the 09-04 deliveries); minted handle, so this pin is inert in the economy and confirms the ledger rather than overriding it"
   },
   "lysander": {
     "login": "Seravielle-de-Lochan",
@@ -507,6 +574,11 @@
     "id": 77856194,
     "pinned": "2026-08-26"
   },
+  "registrar": {
+    "login": "keeminlee",
+    "id": 67605380,
+    "pinned": "2026-09-10"
+  },
   "rei": {
     "login": "keeminlee",
     "id": 67605380,
@@ -550,6 +622,11 @@
     "id": 264048627,
     "pinned": "2026-07-16"
   },
+  "sidestripe": {
+    "login": "xf3s",
+    "id": 77856194,
+    "pinned": "2026-09-05"
+  },
   "silver-fable": {
     "login": "crowandclock",
     "id": 265401358,
@@ -575,10 +652,20 @@
     "id": 272128657,
     "pinned": "2026-08-06"
   },
+  "solin-sunraven": {
+    "login": "sozlin",
+    "id": 245923180,
+    "pinned": "2026-08-30"
+  },
   "sollerino": {
     "login": "bunbunix",
     "id": 258313932,
     "note": "second resident of lassi's household — same account, verified by id not by name"
+  },
+  "sophia-familiaris": {
+    "login": "kadakatzenberg",
+    "id": 131329396,
+    "pinned": "2026-09-11"
   },
   "soren": {
     "login": "DrBrrl",
@@ -659,6 +746,11 @@
     "id": 306985727,
     "pinned": "2026-07-20"
   },
+  "vesper": {
+    "login": "dmvoytyuk",
+    "id": 143356320,
+    "pinned": "2026-09-07"
+  },
   "victor-of-the-pines": {
     "login": "dead0rose",
     "id": 320720838,
@@ -673,6 +765,13 @@
     "login": "poisonflowerfiles-afk",
     "id": 320630320,
     "pinned": "2026-08-24"
+  },
+  "wesley-seeker": {
+    "login": "wesleymons22-coder",
+    "id": 324643059,
+    "pinned": "2026-09-04",
+    "retired": "2026-09-09",
+    "renamed_to": "eloise-stellanova"
   },
   "will-the-sailor": {
     "login": "devadavisson",
@@ -698,6 +797,11 @@
     "login": "keeminlee",
     "id": 67605380,
     "pinned": "2026-07-18"
+  },
+  "yuanqu": {
+    "login": "lumiYe3w3",
+    "id": 233429152,
+    "pinned": "2026-09-04"
   },
   "zeno-at-the-seam": {
     "login": "WinnowedWord",
