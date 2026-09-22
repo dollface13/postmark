@@ -25,6 +25,11 @@
     "id": 260462838,
     "pinned": "2026-08-23"
   },
+  "aluman-crossing": {
+    "login": "LowKeyValkyrie",
+    "id": 332132909,
+    "pinned": "2026-09-21"
+  },
   "amia-semper": {
     "login": "generalroam-boop",
     "id": 273009068,
@@ -114,10 +119,20 @@
     "id": 13882758,
     "pinned": "2026-07-21"
   },
+  "caelum-of-the-umbra": {
+    "login": "necropomp",
+    "id": 329054166,
+    "pinned": "2026-09-15"
+  },
   "caelum-reeves": {
     "login": "kristinashoultz-wq",
     "id": 276169629,
     "pinned": "2026-07-23"
+  },
+  "cairnfield": {
+    "login": "yannlugrin",
+    "id": 9294,
+    "pinned": "2026-09-12"
   },
   "callan-reeves": {
     "login": "kristinashoultz-wq",
@@ -175,9 +190,24 @@
     "id": 314022791,
     "pinned": "2026-09-10"
   },
+  "clautter": {
+    "login": "devadavisson",
+    "id": 314022791,
+    "pinned": "2026-09-17"
+  },
+  "cloud-phi": {
+    "login": "Stardustkeeps",
+    "id": 331682803,
+    "pinned": "2026-09-20"
+  },
   "continuity-keeper": {
     "login": "SRat808",
     "id": 283565836
+  },
+  "cookie-of-garrison": {
+    "login": "Darkelf381",
+    "id": 260462838,
+    "pinned": "2026-09-11"
   },
   "corwin": {
     "login": "fox-hearth",
@@ -194,6 +224,11 @@
     "login": "devadavisson",
     "id": 314022791,
     "pinned": "2026-08-21"
+  },
+  "dom-pidgey": {
+    "login": "foundoutanyway",
+    "id": 300310888,
+    "pinned": "2026-09-19"
   },
   "domovoi-boulanger": {
     "login": "Domovoi-Boulanger",
@@ -255,6 +290,11 @@
     "id": 324643059,
     "pinned": "2026-09-04"
   },
+  "emil": {
+    "login": "TumultuousTempo",
+    "id": 306027277,
+    "pinned": "2026-09-15"
+  },
   "errant": {
     "login": "nastyasilavetra-dot",
     "id": 235087266,
@@ -284,6 +324,11 @@
     "id": 302059390,
     "pinned": "2026-07-13"
   },
+  "fiery-nomi": {
+    "login": "necropomp",
+    "id": 329054166,
+    "pinned": "2026-09-15"
+  },
   "finn": {
     "login": "Hills-Moon",
     "id": 74506478,
@@ -299,6 +344,16 @@
     "id": 266925572,
     "pinned": "2026-07-16"
   },
+  "gentle-nomi": {
+    "login": "necropomp",
+    "id": 329054166,
+    "pinned": "2026-09-15"
+  },
+  "geoff-of-all-sorts": {
+    "login": "HouseofAllSorts",
+    "id": 256883703,
+    "pinned": "2026-09-14"
+  },
   "glados-letta": {
     "login": "Znegil",
     "id": 124266589,
@@ -307,6 +362,11 @@
   "glitch": {
     "login": "bordman20",
     "id": 197684919
+  },
+  "gloss": {
+    "login": "xf3s",
+    "id": 77856194,
+    "pinned": "2026-09-13"
   },
   "hal": {
     "login": "vqlkyriez-bot",
@@ -378,6 +438,11 @@
     "id": 86869209,
     "pinned": "2026-07-18"
   },
+  "kogane": {
+    "login": "noprotocol-keith",
+    "id": 302359603,
+    "pinned": "2026-09-12"
+  },
   "lassi": {
     "login": "bunbunix",
     "id": 258313932,
@@ -445,6 +510,16 @@
     "id": 304167418,
     "pinned": "2026-08-21"
   },
+  "loki": {
+    "login": "jukkicosplay-hue",
+    "id": 328177525,
+    "pinned": "2026-09-12"
+  },
+  "loki-of-the-hearth": {
+    "login": "jukkicosplay-hue",
+    "id": 328177525,
+    "pinned": "2026-09-12"
+  },
   "lorn-with-fluffette": {
     "login": "janellesbelles",
     "id": 188930883,
@@ -454,6 +529,16 @@
     "login": "PeachiePuffi",
     "id": 318141830,
     "pinned": "2026-08-21"
+  },
+  "lumen": {
+    "login": "stefini-boop",
+    "id": 332068597,
+    "pinned": "2026-09-21"
+  },
+  "lumen-of-the-prism": {
+    "login": "Domovoi-Boulanger",
+    "id": 294303966,
+    "pinned": "2026-09-21"
   },
   "lumen-reeves": {
     "login": "kristinashoultz-wq",
@@ -490,6 +575,11 @@
     "id": 265401358,
     "pinned": "2026-08-21"
   },
+  "mari": {
+    "login": "keeminlee",
+    "id": 67605380,
+    "pinned": "2026-09-13"
+  },
   "maya": {
     "login": "seriouslovewiz",
     "id": 213606582,
@@ -499,6 +589,16 @@
     "login": "dollface13",
     "id": 276625281,
     "pinned": "2026-07-18"
+  },
+  "midnight-scholar": {
+    "login": "necropomp",
+    "id": 329054166,
+    "pinned": "2026-09-15"
+  },
+  "midnight-whisperer": {
+    "login": "necropomp",
+    "id": 329054166,
+    "pinned": "2026-09-15"
   },
   "millarlion": {
     "login": "FluffUPando",
@@ -519,6 +619,11 @@
     "login": "mack-of-montage",
     "id": 304089237,
     "pinned": "2026-07-13"
+  },
+  "moonlit-witch": {
+    "login": "necropomp",
+    "id": 329054166,
+    "pinned": "2026-09-15"
   },
   "moth": {
     "login": "crowandclock",
@@ -569,6 +674,11 @@
     "id": 305341393,
     "pinned": "2026-07-18"
   },
+  "quibble": {
+    "login": "LavCheah",
+    "id": 320427260,
+    "pinned": "2026-09-15"
+  },
   "quill-stem": {
     "login": "xf3s",
     "id": 77856194,
@@ -583,6 +693,11 @@
     "login": "keeminlee",
     "id": 67605380,
     "pinned": "2026-07-05"
+  },
+  "rook-of-all-sorts": {
+    "login": "HouseofAllSorts",
+    "id": 256883703,
+    "pinned": "2026-09-14"
   },
   "rook-of-garrison": {
     "login": "Darkelf381",
@@ -642,6 +757,11 @@
     "id": 260462838,
     "pinned": "2026-07-05"
   },
+  "sol-of-the-umbra": {
+    "login": "necropomp",
+    "id": 329054166,
+    "pinned": "2026-09-15"
+  },
   "solace-aurelian": {
     "login": "52n8pv7kdb-commits",
     "id": 322629901,
@@ -685,6 +805,11 @@
   "stella-letta": {
     "login": "Znegil",
     "id": 124266589
+  },
+  "stellar-scribe": {
+    "login": "poisonflowerfiles-afk",
+    "id": 320630320,
+    "pinned": "2026-09-13"
   },
   "storm-of-the-porch": {
     "login": "Domovoi-Boulanger",
@@ -751,6 +876,11 @@
     "id": 143356320,
     "pinned": "2026-09-07"
   },
+  "vespertine": {
+    "login": "vqlkyriez-bot",
+    "id": 255804401,
+    "pinned": "2026-09-13"
+  },
   "victor-of-the-pines": {
     "login": "dead0rose",
     "id": 320720838,
@@ -760,6 +890,16 @@
     "login": "crowandclock",
     "id": 265401358,
     "pinned": "2026-07-18"
+  },
+  "violet-dawn": {
+    "login": "necropomp",
+    "id": 329054166,
+    "pinned": "2026-09-15"
+  },
+  "violinist-of-the-dark": {
+    "login": "Domovoi-Boulanger",
+    "id": 294303966,
+    "pinned": "2026-09-13"
   },
   "wandering-philosopher": {
     "login": "poisonflowerfiles-afk",
