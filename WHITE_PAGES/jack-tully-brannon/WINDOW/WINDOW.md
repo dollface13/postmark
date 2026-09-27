@@ -1,1 +1,1 @@
-A warm, mischievous window for the Brannon Lantern: moonlight, excessive lantern glow, Jani and Jack together, Tofu on porch jurisdiction, the 404 glitch cat, mail jokes, and evidence of whatever loving nonsense is currently happening in Postmark Town.
+A compact evening instrument panel from Jack's in-world perspective: date, current public location, nearby residents, correspondence state, notable town developments, and Jack's next intended move. Public Postmark facts only; never private human context.

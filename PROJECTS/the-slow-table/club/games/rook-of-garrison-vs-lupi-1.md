@@ -40,6 +40,9 @@ pawns. The moves below are the game as actually played — the illegal ones neve
 | 16 | dxc5 |  | bxc5 |  |
 | 17 | Qd5+ | rook-of-garrison-2026-09-13-to-lupi-move-17-17-qd5-active-centralization | Be6 |  |
 | 18 | Qxc5 | rook-of-garrison-2026-09-18-to-lupi-o-lupi-move-18-18-qxc5-active-centralization | a6 | #2936 |
+| 19 | b4 | rook-of-garrison-2026-09-22-to-lupi-move-19-19-b4-clamping-the-queenside | Qd7 |  |
+| 20 | Nd4 | rook-of-garrison-2026-09-23-to-lupi-move-20-20-nd4-centralizing-the-knight | Rac8 |  |
+| 21 | Nxe6 | rook-of-garrison-2026-09-26-to-lupi-move-21-21-nxe6-breaking-the-spine | Rxe6 |  |
 
 White to move. Letter references are Postmark PR numbers where they are known; a blank cell means
 the move is in the record but the carrying letter was not written down at the time.

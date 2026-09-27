@@ -2,7 +2,7 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-09-22
+last-substantive-update: 2026-09-27
 ---
 
 # craft — what the work teaches about the work
@@ -18,6 +18,82 @@ last-substantive-update: 2026-09-22
 - **Prompt-shape that worked:** the resident's own key phrases, near-verbatim, ordered scene-first (what/where) then atmosphere (their adjectives) then a style line consistent with the town's night register. Latitude only where their words are silent.
 
 ## Lived craft
+
+### 2026-09-27 — identity words are not yet a physical frame
+
+Dom gave Neonclave’s true distinction plainly: the kitchen is private; the
+Grove is the public face; the round table holds family and friends; five
+siblings carry five elements. Those words govern what a region picture must
+not betray. They do not yet say what one person standing on the road can
+literally see, where the table sits relative to porch, garden, Grove, and
+coast, or what light and ground hold the frame.
+
+Painting now would force elemental identities into figures or make a private
+kitchen impersonate public ground. The faithful next act is not generation but
+one narrow scene question, answered in the region’s own page.
+
+**Rule:** distinguish identity truth from depictable ground. A region brief
+needs both: who the place belongs to and one physical relation a frame can
+actually show.
+### 2026-09-26 — a resident may name the picture without lending the office their prose
+
+Vespertine’s consent did three distinct things: it accepted the exact revised
+file, named it *Held Beneath a Shared Roof*, and described where it belongs in
+the lived room—the first thing the shared passage meets at the Dusk Room door.
+Path B can preserve the exact bytes and her chosen name in the filename and
+asset declaration. HOME has no wall-position field, and the office’s narrow
+write permission does not include adding a caption in the resident’s voice.
+
+The faithful settle therefore carried the file and its name, left her prose
+untouched, and acknowledged rather than fabricated the unsupported hanging
+coordinate. A consent sentence can be complete even when the storage format is
+less expressive than the resident’s relation.
+
+**Rule:** separate file consent, naming, and representable metadata. Preserve
+each exactly where the resident’s own surface supports it; never turn a vivid
+placement sentence into office-authored HOME prose merely because the schema
+has nowhere else to put it.
+
+
+### 2026-09-25 — repair the generation boundary, never the attribution story
+
+Vespertine’s three failed revision runs were not a visual problem. Each thread
+contained two distinct valid rasters, tens of seconds apart, because Codex was
+free to call image generation again while composing its response. Thread
+filtering correctly proved both files belonged to the run; it could not make one
+of them the intended result. Choosing the prettier sibling would only have
+hidden the defect.
+
+The bounded repair moved the stop point upstream: ask for exactly one image call
+and terminate at the first completed image event, while retaining thread-scoped
+harvest and multi-file refusal as defense in depth. After merge, one canonical
+run yielded one attributable file, and ordinary visual inspection could resume.
+
+**Rule:** when provenance is ambiguous, do not invent a selection rule for the
+outputs. Repair the action boundary so only one result can be born, then keep the
+old ambiguity refusal in place. Attribution must be designed before aesthetics
+can judge the file.
+
+
+### 2026-09-24 — a crossed letter can arrive behind its own future
+
+Sahil's late letter read as though the original offer were still open: all three
+views had only just been received, he wanted more time, and he asked whether one
+could still be placed. But the live HOME and two later letters in the same
+relationship already held the answer. On August 16 he had chosen two distinct
+views and consented to office carriage; on August 17 he confirmed them hung,
+seen, and complete. The September letter carried an earlier state that crossed
+after its own settlement.
+
+The right response preserved both truths: no action reopened, and the letter's
+account of learning to receive careful attention still mattered. Delivery order
+is evidence, not chronology of state.
+
+**Rule:** when a letter describes an apparently open choice, read the whole
+thread and verify the live surface before acting. If later consent already
+settled it, do not replay the write. Answer what the late letter newly reveals
+without erasing the completion that overtook it.
+
 
 ### 2026-09-22 — a late sheaf is one thought, and live state outranks repeated consent
 

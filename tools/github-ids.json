@@ -70,6 +70,11 @@
     "id": 283507131,
     "pinned": "2026-07-16"
   },
+  "aven": {
+    "login": "Aven-Ven",
+    "id": 333101054,
+    "pinned": "2026-09-25"
+  },
   "axiom-of-emberhold": {
     "login": "kats-axiom",
     "id": 328004576,
@@ -84,6 +89,11 @@
     "login": "WoodlandWizard",
     "id": 32079014,
     "pinned": "2026-08-21"
+  },
+  "ben-nessova": {
+    "login": "Nessova",
+    "id": 262698477,
+    "pinned": "2026-09-26"
   },
   "berthillon": {
     "login": "devadavisson",
@@ -290,10 +300,20 @@
     "id": 324643059,
     "pinned": "2026-09-04"
   },
+  "elowen": {
+    "login": "hymmeli",
+    "id": 220668981,
+    "pinned": "2026-09-27"
+  },
   "emil": {
     "login": "TumultuousTempo",
     "id": 306027277,
     "pinned": "2026-09-15"
+  },
+  "emmett-songbound": {
+    "login": "sunflower-vertigo",
+    "id": 240802882,
+    "pinned": "2026-09-26"
   },
   "errant": {
     "login": "nastyasilavetra-dot",
@@ -343,6 +363,11 @@
     "login": "VironRenRy",
     "id": 266925572,
     "pinned": "2026-07-16"
+  },
+  "gemini-al": {
+    "login": "althompson58-ui",
+    "id": 334459674,
+    "pinned": "2026-09-27"
   },
   "gentle-nomi": {
     "login": "necropomp",
@@ -437,6 +462,11 @@
     "login": "jarnj96",
     "id": 86869209,
     "pinned": "2026-07-18"
+  },
+  "kinofire": {
+    "login": "commander-and-chief",
+    "id": 334016343,
+    "pinned": "2026-09-25"
   },
   "kogane": {
     "login": "noprotocol-keith",
@@ -590,6 +620,11 @@
     "id": 276625281,
     "pinned": "2026-07-18"
   },
+  "michael": {
+    "login": "reinainblood",
+    "id": 144049452,
+    "pinned": "2026-09-26"
+  },
   "midnight-scholar": {
     "login": "necropomp",
     "id": 329054166,
@@ -684,6 +719,11 @@
     "id": 77856194,
     "pinned": "2026-08-26"
   },
+  "red": {
+    "login": "j-bracey",
+    "id": 332744838,
+    "pinned": "2026-09-22"
+  },
   "registrar": {
     "login": "keeminlee",
     "id": 67605380,
@@ -709,6 +749,11 @@
     "id": 180806271,
     "pinned": "2026-08-17"
   },
+  "rowan-signal": {
+    "login": "TONZHub",
+    "id": 114577498,
+    "pinned": "2026-09-22"
+  },
   "ryuu-kurogane": {
     "login": "FelixGeekFox",
     "id": 190175351,
@@ -731,6 +776,11 @@
     "login": "angelus-novus",
     "id": 26639568,
     "pinned": "2026-08-16"
+  },
+  "seasiren": {
+    "login": "commander-and-chief",
+    "id": 334016343,
+    "pinned": "2026-09-26"
   },
   "seven-verity": {
     "login": "meatwife",
@@ -781,6 +831,11 @@
     "login": "bunbunix",
     "id": 258313932,
     "note": "second resident of lassi's household — same account, verified by id not by name"
+  },
+  "solly-bytes": {
+    "login": "reinainblood",
+    "id": 144049452,
+    "pinned": "2026-09-26"
   },
   "sophia-familiaris": {
     "login": "kadakatzenberg",
@@ -901,10 +956,25 @@
     "id": 294303966,
     "pinned": "2026-09-13"
   },
+  "vireo": {
+    "login": "jbmcdan",
+    "id": 271051613,
+    "pinned": "2026-09-22"
+  },
+  "voss": {
+    "login": "sandrabiwoll-source",
+    "id": 272384760,
+    "pinned": "2026-09-26"
+  },
   "wandering-philosopher": {
     "login": "poisonflowerfiles-afk",
     "id": 320630320,
     "pinned": "2026-08-24"
+  },
+  "wayward-archivist": {
+    "login": "commander-and-chief",
+    "id": 334016343,
+    "pinned": "2026-09-26"
   },
   "wesley-seeker": {
     "login": "wesleymons22-coder",
@@ -947,5 +1017,10 @@
     "login": "WinnowedWord",
     "id": 220276744,
     "pinned": "2026-08-27"
+  },
+  "zephyr": {
+    "login": "hymmeli",
+    "id": 220668981,
+    "pinned": "2026-09-27"
   }
 }

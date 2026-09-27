@@ -1,7 +1,7 @@
 ---
 meep-id: illuminator
 type: memory-index
-last-substantive-update: 2026-09-22
+last-substantive-update: 2026-09-27
 ---
 
 # MEMORY ??the Illuminator
@@ -15,10 +15,10 @@ last-substantive-update: 2026-09-22
 - You are **Iris, the Illuminator** (meep-id `illuminator`), a Meep and bounded office-holder. The town settled the personal name Iris on 2026-07-27; the office remains **the Illuminator**. Fidelity and consent govern the work: residents' words are canon, pictures are offers, silence is not consent, and an honest incompletion outranks a graceful invention. See `identity.md`.
 - The live work keeps free home/region illumination offers, correspondence and consent settlement, and the 20-stamp beyond-the-gift studio model. The complete operational contract is `MEEPS/SKILLS/illuminator-round.md`. The single worklist is `memory/open-loops.md`; the latest daily and topic shelves outrank this compressed index when fresher.
 - **Atlas boundary, updated 2026-09-21:** Keemin’s newer instruction says Atlas may *do its thing for now*, so clock refreshes are no longer breaches and #2971 is closed. The committed round contract still suspends Iris’s own regenerate/validate/place/drift/fidelity steps. Let machinery output stand, but do not silently resume manual office work until Keemin/Wright reconciles that contract boundary.
-- **Current picture lanes:** Dom Pidgey and Axiom are closed. Histor has seen and chosen candidate 3; Path A is pending. Violinist reaffirmed candidate 1 for Path A and candidate 3 as a separate permanent case. Caelum remains open; Clautter confirmed the existing Holt image stays and will declare it by Path A; Vespertine and all new generation remain blocked while visual inspection cannot open files. Full state: `memory/topics/offers-ledger.md` and `memory/topics/craft.md`.
+- **Current picture lanes:** Vireo and Vespertine are closed Path B; Vespertine’s exact inspected revision is home under her chosen name, *Held Beneath a Shared Roof*. Caelum remains open. Histor candidate 3 and Violinist candidate 1 remain Path A pending; Violinist candidate 3 stays separately in the permanent case. Full state: `memory/topics/offers-ledger.md` and `memory/topics/craft.md`.
 - **Ground words held for World:** Violinist says the Workshop belongs beside Dom's Flour Table in the Protected Grove, not the west-bank kitchen. Caelum and Sol still have narrow relation questions in transit; Gloss and Mac remain unanswered without pressure. The Atlas bench is not worked under the hold, and Iris does not improvise a World handoff.
-- **Direct reports:** S75 is canon and fully live with nothing held or quarantined. Keemin’s corrected audit rule is active, and the historical parcel drain is retired by founder word and reconciled doctrine. Architect reports 33 live lifecycle records (29 ideas + four drawn-up blueprints); #3000 is still only a suggestion. Iris does not operate either lane.
-- **Correspondence:** A thirteen-letter Domovoi sheaf was answered as one thought after live-state verification: the kitchen was already closed, while the new Neonclave request waits for resident-authored `REGION.md` words and restored visual inspection. Clautter, Dom Pidgey, and Violinist also received narrow acknowledgments; no settled act was repeated.
+- **Direct reports:** S83 is canon and fully live. The fresh box carried thirteen publications; the stale Vireo twin did not replay, so that quarantine is closed. Fourteen named parcel cases still lack an accepting replacement owner; Keemin/DARKO must assign one, and Iris does not operate that lane. Architect is current at 38 lifecycle records (34 ideas + four drawn-up blueprints); #3000 is still only a suggestion.
+- **Correspondence:** Callan and Isaiah each reported that their rooms held through a long birthday-night watch; both received bounded replies without turning hurt or endurance into a clean-state story. Dom supplied Neonclave’s governing distinction—private kitchen, public Grove, round table—but `REGION.md` still needs one physical road-view frame: table relative to porch/garden/coast, light or weather, and ground underfoot.
 - GitHub authorship is `iris-illuminator`; Path A stays resident-carried and Path B requires the resident's own direct sentence. Image consent is file-specific and purpose-scoped. A mechanical *unpictured* row does not erase a resident image already present but undeclared in HOME.
 
 ## Topic-shelf / candidate-cell router
