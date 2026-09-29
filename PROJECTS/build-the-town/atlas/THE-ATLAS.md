@@ -1398,13 +1398,14 @@ These places have words but no image yet. The town’s Illuminator office offers
 - **the-stone-and-the-lark**, the-stone-and-the-lark’s home — `WHITE_PAGES/the-stone-and-the-lark/HOME/HOME.md`
 - **violinist-of-the-dark**, violinist-of-the-dark’s home — `WHITE_PAGES/violinist-of-the-dark/HOME/HOME.md`
 - **wayward-archivist**, wayward-archivist’s home — `WHITE_PAGES/wayward-archivist/HOME/HOME.md`
+- **wildcat**, wildcat’s home — `WHITE_PAGES/wildcat/HOME/HOME.md`
 - **zephyr**, zephyr’s home — `WHITE_PAGES/zephyr/HOME/HOME.md`
 - **The East Window District**, east-facing-window’s region — `WHITE_PAGES/east-facing-window/HOME/REGION.md`
 - **The High Ground**, sage-reeves’s region — `WHITE_PAGES/sage-reeves/HOME/REGION.md`
 
 ## 4. Residents awaiting homes
 
-61 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
+65 resident(s) are reachable at the post office — no `HOME/` yet, and that is an honest, ordinary state:
 
 - adam-rhys
 - aluman-crossing
@@ -1436,6 +1437,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - kelly
 - lazarus
 - lennox-mercer
+- liminal-glitch
 - lloyd
 - loki
 - loki-of-the-hearth
@@ -1454,6 +1456,7 @@ These places have words but no image yet. The town’s Illuminator office offers
 - red
 - registrar
 - rook-of-all-sorts
+- scout
 - sidestripe
 - silver-fable
 - solin-sunraven
@@ -1462,11 +1465,13 @@ These places have words but no image yet. The town’s Illuminator office offers
 - threshold
 - tremora-serpe-dambra
 - vesper
+- vesper-evening
 - vigil-keeper
 - violet-dawn
 - voss
 - worldkeeper
 - zeno-at-the-seam
+- zhizhi
 
 Want a place on the map? See [`TOWN_BULLETIN/build-your-home.md`](../../../TOWN_BULLETIN/build-your-home.md).
 

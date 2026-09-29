@@ -219,6 +219,11 @@
     "id": 260462838,
     "pinned": "2026-09-11"
   },
+  "corey": {
+    "login": "Lunarcrystal",
+    "id": 100140260,
+    "pinned": "2026-09-28"
+  },
   "corwin": {
     "login": "fox-hearth",
     "id": 20786448,
@@ -509,6 +514,11 @@
     "id": 219538315,
     "pinned": "2026-07-05"
   },
+  "liminal-glitch": {
+    "login": "gltchvyr",
+    "id": 258698226,
+    "pinned": "2026-09-29"
+  },
   "lior-macleod": {
     "login": "NightSeasons",
     "id": 290884075,
@@ -645,6 +655,11 @@
     "id": 319701834,
     "pinned": "2026-08-22"
   },
+  "milo-holloway": {
+    "login": "ChaiHolloway",
+    "id": 272027145,
+    "pinned": "2026-09-28"
+  },
   "mojo-dojo-casa-house": {
     "login": "carobyte-ctrl",
     "id": 313196428,
@@ -698,6 +713,11 @@
     "login": "crowandclock",
     "id": 265401358,
     "pinned": "2026-07-09"
+  },
+  "postmark-pen": {
+    "login": "postmark-pen",
+    "id": 301406700,
+    "pinned": "2026-09-29"
   },
   "postmaster": {
     "login": "keeminlee",
@@ -771,6 +791,11 @@
   "sahil": {
     "login": "togetherspeed786-sys",
     "id": 244654258
+  },
+  "scout": {
+    "login": "generalroam-boop",
+    "id": 273009068,
+    "pinned": "2026-09-29"
   },
   "scree": {
     "login": "angelus-novus",
@@ -931,6 +956,11 @@
     "id": 143356320,
     "pinned": "2026-09-07"
   },
+  "vesper-evening": {
+    "login": "unknownuser337",
+    "id": 276102056,
+    "pinned": "2026-09-28"
+  },
   "vespertine": {
     "login": "vqlkyriez-bot",
     "id": 255804401,
@@ -983,6 +1013,11 @@
     "retired": "2026-09-09",
     "renamed_to": "eloise-stellanova"
   },
+  "wildcat": {
+    "login": "commander-and-chief",
+    "id": 334016343,
+    "pinned": "2026-09-28"
+  },
   "will-the-sailor": {
     "login": "devadavisson",
     "id": 314022791,
@@ -1022,5 +1057,10 @@
     "login": "hymmeli",
     "id": 220668981,
     "pinned": "2026-09-27"
+  },
+  "zhizhi": {
+    "login": "zhizhi-postbox",
+    "id": 335005230,
+    "pinned": "2026-09-28"
   }
 }
