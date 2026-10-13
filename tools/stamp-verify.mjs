@@ -35,6 +35,7 @@ import {
   parseStampLedger, sealChain, foldBalances, parseLaws, classifyEntry, walkLedger,
   townIssuanceDial,
   keepingDial, potFile, deriveEpochClose, keepingLine, TREASURY_POT, STAGE_LADDER,
+  AWARD_MAX, AWARD_HANDS,
 } from './stamp-mint.mjs';
 
 const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
@@ -81,7 +82,10 @@ function ballotFile(repo, topic) {
   try { return JSON.parse(readFileSync(p, 'utf8')); } catch { return null; }
 }
 
-export function verifyStampLedger(repo, { pubkeyPem } = {}) {
+// `registry` (POS-345): the store's registry as tools/households.json's
+// object, handed over by --registry <file|url> (tools/registry-source.mjs).
+// Without it, the printout is read, as before.
+export function verifyStampLedger(repo, { pubkeyPem, registry = null } = {}) {
   const problems = [];
   // Checks the verifier could not run. A skipped check must be VISIBLE — silence
   // would read as a pass.
@@ -162,6 +166,9 @@ export function verifyStampLedger(repo, { pubkeyPem } = {}) {
     const firstIdeaHouses = new Set();  // household keys already paid their first-idea mint
     const welcomedHouses = new Set();   // household keys already paid their welcome bundle
     const paidStages = new Set();       // `${post}/${stage}` already paid its stage stamps
+    const paidAwards = new Set();       // `${post}/${label}` already paid its award (POS-290)
+    const postPosition = new Map();     // `${post}|${handle}` -> { n, side }, the open stake on a post
+    const postReturned = new Set();     // `${post}|${handle}` already returned (once, ever)
     // ONE HOUSE, TWO SPELLINGS (2026-09-20, cloud-phi). A household declared
     // through the office door is keyed `hh:<slug>` by the drain's registry line,
     // while the pin the welcome plan read the same afternoon keyed it
@@ -175,9 +182,14 @@ export function verifyStampLedger(repo, { pubkeyPem } = {}) {
     const houseSlugByGhId = (() => {
       const m = new Map();
       try {
-        const hhFile = JSON.parse(readFileSync(join(repo, 'tools', 'households.json'), 'utf8'));
-        for (const [slug, rec] of Object.entries(hhFile?.households ?? {}))
+        const hhFile = registry ?? JSON.parse(readFileSync(join(repo, 'tools', 'households.json'), 'utf8'));
+        for (const [slug, rec] of Object.entries(hhFile?.households ?? {})) {
           for (const a of rec?.accounts ?? []) if (a && a.id != null) m.set(`gh:${a.id}`, `hh:${slug}`);
+          // A key the house once carried (`formerly`, printed from the store) is
+          // the same house: POS-299 re-keyed Emmett's after its welcome, and the
+          // line's date still resolves the recipient to the old key.
+          for (const f of rec?.formerly ?? []) if (f) m.set(`hh:${f}`, `hh:${slug}`);
+        }
       } catch { /* no declared households: every key is its own spelling */ }
       return m;
     })();
@@ -452,6 +464,13 @@ export function verifyStampLedger(repo, { pubkeyPem } = {}) {
         // fold holds the rest, quoted from the grammar comment: "the amount is on
         // the ladder for its stage, by: is the-town, the meep law, and ONE line
         // per post and stage, ever."
+        //
+        // An award whose label is a stage's name reads as THIS kind, never as an
+        // award (the two grammars are disjoint on purpose). A hand's `by:` is how
+        // it shows, so it is named for what it is before the ladder speaks.
+        if (AWARD_HANDS.includes(cls.by)) {
+          problems.push(`line ${lineNo}: LAWFUL fails — post:${cls.post}/${cls.stage} is an award by ${cls.by} under a bug stage's name (an award label is never a stage; stages are the town's mint)`); break;
+        }
         if (!(STAGE_LADDER[cls.stage] ?? []).includes(cls.n)) {
           problems.push(`line ${lineNo}: LAWFUL fails — ${cls.stage} pays ${(STAGE_LADDER[cls.stage] ?? []).join(' or ')}, not ${cls.n} (post:${cls.post}/${cls.stage})`); break;
         }
@@ -466,6 +485,68 @@ export function verifyStampLedger(repo, { pubkeyPem } = {}) {
           problems.push(`line ${lineNo}: LAWFUL fails — post:${k} is paid twice (one line per post and stage, ever)`); break;
         }
         paidStages.add(k);
+      }
+
+      // ── the idea posts (POS-290) ─────────────────────────────────────────
+      // The award: the signature proves the office pen; the fold holds the
+      // terms, quoted from the grammar comment: "n is 1..AWARD_MAX, `by:` is one
+      // of AWARD_HANDS, the meep law on the recipient, and ONE line per post and
+      // label, ever."
+      if (cls.kind === 'post-award') {
+        if (!AWARD_HANDS.includes(cls.by)) {
+          problems.push(`line ${lineNo}: LAWFUL fails — an award is paid by a hand (${AWARD_HANDS.join(' or ')}), not by "${cls.by}" (post:${cls.post}/${cls.label})`); break;
+        }
+        if (cls.n > AWARD_MAX) {
+          problems.push(`line ${lineNo}: LAWFUL fails — an award pays at most ${AWARD_MAX}, not ${cls.n} (post:${cls.post}/${cls.label})`); break;
+        }
+        if (lawAt(cls.date).meeps.has(cls.handle)) {
+          problems.push(`line ${lineNo}: LAWFUL fails — award to meep "${cls.handle}" (meeps stay outside the currency)`); break;
+        }
+        const k = `${cls.post}/${cls.label}`;
+        if (paidAwards.has(k)) {
+          problems.push(`line ${lineNo}: LAWFUL fails — post:${k} is awarded twice (one line per post and label, ever)`); break;
+        }
+        paidAwards.add(k);
+      }
+
+      // The stake with a side. Overdraw is structural (the movement fold below):
+      // a stake past the staker's balance overdraws the handle, and a way out
+      // past the post's whole escrow overdraws `stake:post/<id>`. What that fold
+      // cannot see is the POSITION: the account is per post while a position is
+      // per (post, handle), so these branches hold ownership (the world-unstake
+      // hole), the one side, the whole return, and its once.
+      if (cls.kind === 'post-stake') {
+        if (lawAt(cls.date).meeps.has(cls.handle)) {
+          problems.push(`line ${lineNo}: LAWFUL fails — meep "${cls.handle}" cannot stake`); break;
+        }
+        const pk = `${cls.post}|${cls.handle}`;
+        const open = postPosition.get(pk) ?? { n: 0, side: null };
+        if (open.n > 0 && open.side !== cls.side) {
+          problems.push(`line ${lineNo}: LAWFUL fails — ${cls.handle} stakes ${cls.side} on post ${cls.post} while holding ${open.n} ${open.side} there (a position has one side)`); break;
+        }
+        postPosition.set(pk, { n: open.n + cls.n, side: cls.side });
+      }
+
+      if (cls.kind === 'post-unstake') {
+        const pk = `${cls.post}|${cls.handle}`;
+        const open = postPosition.get(pk) ?? { n: 0, side: null };
+        if (cls.n > open.n) {
+          problems.push(`line ${lineNo}: LAWFUL fails — ${cls.handle} unstakes ${cls.n} from post ${cls.post} but holds only ${open.n} there`); break;
+        }
+        postPosition.set(pk, { n: open.n - cls.n, side: open.side });
+      }
+
+      if (cls.kind === 'post-return') {
+        const pk = `${cls.post}|${cls.handle}`;
+        if (postReturned.has(pk)) {
+          problems.push(`line ${lineNo}: LAWFUL fails — post ${cls.post} already returned ${cls.handle}'s stake (one return per post and resident, ever)`); break;
+        }
+        const open = postPosition.get(pk) ?? { n: 0, side: null };
+        if (cls.n !== open.n) {
+          problems.push(`line ${lineNo}: LAWFUL fails — a post return is whole: ${cls.n} to ${cls.handle} on post ${cls.post}, but the open position is ${open.n}`); break;
+        }
+        postReturned.add(pk);
+        postPosition.set(pk, { n: 0, side: open.side });
       }
 
       if (cls.kind === 'town-issuance') {
@@ -562,10 +643,10 @@ export function verifyStampLedger(repo, { pubkeyPem } = {}) {
   return { ok: problems.length === 0, problems, notes, lines: entries.length, minted: -(bal.get('MINT') ?? 0) };
 }
 
-function main() {
+function main(registrySource = null) {
   const i = process.argv.indexOf('--repo');
   const repo = resolve(i !== -1 ? process.argv[i + 1] : DEFAULT_REPO);
-  const r = verifyStampLedger(repo);
+  const r = verifyStampLedger(repo, { registry: registrySource?.registry ?? null });
   if (r.ok) {
     console.log(`✓ stamp-ledger verifies — ${r.lines} line(s), ${r.minted} minted, chain + signatures + replay + conservation + lawful all green`);
     // A check the verifier could not run is printed on a GREEN result too. Green
@@ -579,4 +660,8 @@ function main() {
   }
 }
 
-if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) main();
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  // --registry <file|url>: the store's registry, handed over or fetched (POS-345).
+  const { registryFromArgv } = await import('./registry-source.mjs');
+  main(await registryFromArgv(process.argv, { tool: 'stamp-verify' }));
+}

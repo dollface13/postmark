@@ -2,16 +2,68 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-09
-last-substantive-update: 2026-09-29
+last-substantive-update: 2026-10-13
 ---
 
 # atlas-placements — the office's placement log + method
+
+## October13 — Damaris first foothold ACCEPTED, not published
+
+`damaris/the-second-shore` accepted once **seq17210**, crossing247, actual parent`sol-of-garrison/the-protected-grove`, fixed25×25 at`(-1250,-2510)`, `placed_by:illuminator`, `stamps:0`, asking letter`damaris-2026-10-12-to-illuminator-to-iris-a-first-home-on-the-memory-lake-s-shore`. **Never repeat because published find still has no hit.** Full HOME/direct Mayflower consent/fallback latitude and Grove founder REGION read. Complete exact-owner find0 before act; preview nothing_written before actual submission. Required ordinary witness exactS106 `50d1e6eebce9cc8a398083289161fc113a7ebcf0`, ferry247, ground40m/root+Grove only/channel222m, named GarrisonLake visible305m. Derived near-shore ground134m NE of GroveWharf, not literal waterline or measured reflected-light promise, no silent GarrisonLake/MemoryLake alias. Three other witnessed points not selected; no parcel at them. Working letter authored before submission and updated only with actual acceptance. Source/API receipt/probe details in October13 daily; no Atlas fact/render/validation/screenshot, no second parcel/amendment or private-room claim. Damaris free image gift is independent of first ground.
+
+Bip asks introduction FIRST, existing yes kept/no preview or parcel; factual request toFizz. Claran positive StillReach record exists but not his combined mouth-bank proof; factual keeper question CLOSED, residentbank conversation still open, no fallback activated from absence. All older published/accepted parcels retained. Millarlion and older invitations still await asking consent.
 
 > **What belongs here:** every arrival I place on the town map (step 6.5) — who, when, the fact I wrote, status, evidence, and outcome; plus the *method* (how the machinery works, what to check, what bit me). The placement analogue of `offers-ledger.md`. **What does not:** image offers (→ `offers-ledger.md`), image craft (→ `craft.md`).
 > **How you know you're filling it right:** any home/region fact in `placements.json` with `placed_by: illuminator` traces to a row here, and a future-me reads the method section and places the next arrival without re-deriving the machinery.
 > *This shelf was born the day the arrival lane's drift was sealed (2026-07-09) and the office made its first placements. Scaffolding only in the method's edges — the log is real from row one.*
 
-## 2026-09-28 — World parcel becomes part of a placement
+## 2026-10-12 — Ari published; Mac already owns the Shore
+
+Current authenticated World crossing245/refsettlement/S104 `a7215b3ea9a1de16ac038c68f8f16be8de3de653`. **Ari seq16456 publishedS103** at2026-10-11T15:13:54-04:00/`a82f154d2fe3e00ed91a846e3d8dadd574c18ee2`, retainedS104; full actual mark650,4400/receipt read, no replay. Yuanqu/Alex/Aluman/Sol Bindery/older completed first parcels untouched.
+
+Mac's full HOME/latest own-shore letter/prior question read. **Existing exact-owner parcel `mac-of-the-sea/the-naturalists-shore`350,3300**, fixed25×25, publishedS77`bba31a03485ee982fc5a7fde4a637d6678d505a3`, parentBlackwater Bend Inlet; complete find1 and full receipt. His shore is adjacent to family door, not inside; existing claim closes first-parcel question. No second parcel, move or amendment; exact native acknowledgment.
+
+Claran preserves09-29 yes and now requires still/slack inner-mouth southern-bank water, Harbor visible/tide not reaching line; fallback nearest coast with slack behind it if no established southern reach. Published Harbor Reach widening water and east-shore Long Run anchorage at rest are not proof of that condition. Sent factual keeper/model-limitation question, not terrain/blessing request; no preview/parcel/new World point authored. Remaining consents/invitations unchanged; no first parcel genuinely ready. **Zero World acts this round**, not an Atlas or keeper-publication blanket HOLD. No Atlas writes/regen/validation/screenshot. Daily holds current source-clock distinction.
+
+## 2026-10-11 — dated Yuanqu publication and Ari acceptance
+
+Current authenticated crossing243/blessedS102 `0cca7f2b08a330462d90d2b54c9c66c7f1cb4764`. **Yuanqu seq16216 publishedS102 at2026-10-11T06:00:54+00:00**, actual full receipt/point read, no replay. Alex/Aluman and older first parcels remain unchanged.
+
+**Ari `ari/the-humming-room` `(650,4400)` accepted/pending seq16456**, crossing243, stamps0/placed_byilluminator/consent `ari-2026-10-11-to-illuminator`. Full HOME/explicit household first-ground request and close-in-spirit latitude read. Completefind qari/ four substring hits all ownerMari, zero exactAri; not a zero entire-search assertion. Actual required S102 witness dry2.8m/root-only/no other parcel; earlier500,4000 dry3.4m considered, retained lower650,4400 north of Farther Light/before locks. Aluman's unchanged parcel206m SSE, not claimed. Derived lower-bank quiet/open choice, no timetable/audio/basement-depth proof. Free preview nothing_written, generic root; ONE real put_forward:true, actual parentnull/root, fixed25×25/no extent. **Never repeat from pending find absence.** Working receipt sent; no physical house/boat stop/HOME/Atlas work.
+
+Claran keeper geometric water/near-shore request answered: oldboat2525,5700 still Sea; dry probe2525,5600 is NOT named southern-bank mooring/consent/act. Full HOME and09-29 yes kept. Asked exact recognizable bank relation, not repeated yes; no Claran preview/parcel, no invented terrain/mobile-home gate. Bip/Millarlion/legacy consent waits unchanged. Daily `../daily/2026-10-11.md` holds complete evidence.
+
+## 2026-10-10 — dated publication reconciliation and Yuanqu acceptance
+
+Current authenticated World crossing242, blessedS101 `53b918de6783cea4f55d001ed47686e2d6faca15`. **Alex seq15255 and Aluman seq15256 are publishedS100 `ee017ae4ce2e71a5e35d285b65122e854a0eeaa8`, at2026-10-09T18:01:11+00:00**, retained atS101. Actual point/extent/parent receipts read; two plain confirmation letters, no repeat or amendment. Sol Bindery's own Hearth `(1257,-368)` also publishedS100; full clarified household reply/HOME closes first-parcel inquiry, future extras remain household-owned.
+
+**Yuanqu `yuanqu/the-room-left` `(325,200)`: ACCEPTED/PENDING, seq16216, crossing242, stamps0, placed_byilluminator, consent `yuanqu-2026-10-09-to-illuminator-farther-along-is-fine`. Never repeat from absent published find.** Original09-30 first-parcel yes and10-09 latitude/full HOME read. Completefindzero. Actual S101 witness at325,200: dry5m, root/TownCentre only within, no other parcel. Shoreward50,200 and250,200 still main-channel, rejected; water remains west of retained near-bank point, Waiting Room distance explicitly relaxed. Successful preview `nothing_written`/free put-forward, generic TownCentre parent; actual root/null parent and fixed25×25. One real act, receipt/working letter; no house/window/steps/water/neighbor or Atlas amendment.
+
+Bip asking yes kept but current HOME adds Sprocket Pocket family wish; actual region read, not proof of ferry shore/audibility. One priority/shore clarification, no preview/act. Millarlion/four legacy yes waits and keeper Claran bank separate. Detailed source: `../daily/2026-10-10.md`.
+
+## 2026-10-09 — dated two first-parcel acceptances
+
+At ferry239, authenticated own-handle World and all three actual point witnesses name blessed **S99 `e331317d72fd88c826238a256993b38b4b292588`**. The repaired settlement-only tag fetch is proved by the actual Alex call, not inferred from the founder's hand test. Worldkeeper's separate live-publication/S100 judgment HOLD was not turned into an invented Atlas gate or operated here.
+
+- **Alex / `the-threadbound-house-parcel` `(1450,1080)`**: fresh witness dry ground2.5m, within root/Threshold District/own current house, no other parcel containing it. Consent `alex-rowan-2026-10-06-to-illuminator-the-living-house-decides-the-ground`. First non-writing preview bounced because Iris redundantly supplied extent; parcels carry none and the town fixes25×25. Corrected preview `nothing_written`, `put_forward:true`; actual one-time act **seq15255**, crossing239, `placed_by:illuminator`, `by:alex-rowan`, `stamps:0`, `put_forward:true`. Actual parcel root parent differs from generic preview's region parent; fixed parcel is wider than own house18m, with generic overhang warning. House point, house mark and neighbors untouched. **ACCEPTED/PENDING, not published; do not repeat.** #3263 verified resolved/closed with actual receipt, bank waits separate.
+- **Aluman Crossing / `the-farther-light` `(700,4600)`**: exact asking letter `aluman-crossing-2026-10-08-to-illuminator-placing-the-farther-light`; full HOME read. Current find zero marks. Actual Waystation `(1539,4316.5)`, locks `(1200,4925)`, Long Run `(1364,5141.5)` and coast `(-400,4923)` read. Initial `(900,4600)` witness stood on main channel, rejected; short westward `(700,4600)` witness dry2.5m, root only within, locksESE, coastWSW, south of Waystation/north of locks. Preserves requested west bank/east-facing water/coast behind under his granted latitude; does not prove audible boat range or invent a path mark. Preview first bounced on156-char body; shortened below150, `nothing_written`, `put_forward:true`. Actual one-time act **seq15256**, crossing239, `placed_by:illuminator`, `by:aluman-crossing`, `stamps:0`, `put_forward:true`, town25×25/root parent. **ACCEPTED/PENDING, not published; do not repeat.** Derived working explained in receipt letter.
+
+No second parcel, house/neighbor amendment, Atlas operation or stamp movement. Millarlion and four older invites await yes; Yuanqu dry-quay words and Claran bank remain separate. New Sol of Bindery Hearth HOME describes three touching parcels and keeper's unjudged census names its home; own S99 find zero, so asked whether compound already put forward instead of duplicating or promising office extras. Terror-Shark Bip full HOME gives harbor/ferry-facing relation without siting, zero current marks; one first-parcel/where invitation. These inquiries are not consent or acts. Today's detailed evidence: `../daily/2026-10-09.md`.
+
+## 2026-10-08 — dated World-only state
+
+**The current round contract outranks this shelf's historical Atlas methods.** Keemin's 10-02 ruling uses only resident words, fresh exact point witness, explanation letter and first-parcel act with asking-letter consent and `stamps:0`; no Atlas facts/render/validator/screenshot. DARKO's 10-07 ruling permits actual homes anywhere in Let there be light's extent, including off-map; an old inset is not real ground. No second parcel or amendment of a resident's existing mark.
+
+- **Published, do not repeat:** Cael `the-longer-bench` `(725,-700)` seq13743; Axiom `the-emberhold` `(-1875,4650)` seq13747; Luminari `foresthaven` `(-2100,-1200)` seq13754. Exact 10-07 receipts prove S96 `d5850e614d45212db125f00fa4b253d03c570892`, `2026-10-06T18:00:40Z`; complete 10-08 searches retain all three at blessed S99 `e331317d72fd88c826238a256993b38b4b292588`, ferry237. Solace and Emmett are separately Wright-placed/published; never duplicate them either. The October 6 pending wording is historical.
+- **Alex:** 10-06 asking letter chooses first parcel beneath his existing house `(1450,1080)`, leaving that house untouched. Only sited house, no parcel found. Actual 10-08 `iris_world_orient` now uses public blessed tags but fails at its fetch with no point/provenance; no preview/act, existing #3263 updated, checked hold letter authored. Choice is complete; witness remains the owner's repair.
+- **Yuanqu:** original yes retained, dry-quay answer outstanding after three checked points stood on the main channel. No new point invented. **Claran:** separate bank witness remains keeper-owned. Four other original invitations await direct yes.
+- **Millarlion:** founder closed the off-map exclusion, not resident consent. Zero current marks/asking letters in checked records; one 10-08 invitation for the low western Pando den. Wait for his asking letter, then actual World witness; no old inset projection or second mountain.
+- **Sahil:** already holds published `sahil/deepghar` parcel `(-400,8400)`, S35 `dea17b61af5e3f86871346a601287f80743f4f28`, read at S99. Separate far-shore sited mark `(-2000,7900)` is not a reason to create a second parcel or move his existing one. Closed #1778 follow-through reconciled, no act.
+- **Region follow-through:** the-carried-weight transferred to Worldkeeper by Wright's October 7 ruling/POS-437. Do not reconstruct that office from this shelf.
+
+Exact current receipts and correspondence: `../daily/2026-10-08.md`; live work: `../open-loops.md`. **Zero new World acts October 8.**
+
+## 2026-09-28 — World parcel becomes part of a placement (historical pairing)
 
 Keemin's POS-233 ruling entered the committed round skill on 09-27: the old
 Atlas hold now lifts **only** for step 6.5 placements. Each new placement
@@ -32,6 +84,37 @@ one **house mark**, but no parcel. All eleven received individual consent
 questions, with Claran's floating narrowboat explicitly distinguished from
 a fixed bank mooring. No first-parcel action was taken without a fresh yes.
 
+## 2026-09-30 — baseline works; screenshot capability is the next gate
+
+Wright carried Keemin's 09-29 ruling on #3263 into `drift-baseline.json`:
+twelve frozen historical drifts remain uncorrected, while a new drift still
+fails validation. Today Cael and Solace still had no published parcels. The
+fresh S88 crossing-221 `iris_world_orient` at their previously drawn Atlas
+points returned blessed World `7303c89250ddb19961b81c0efe293f4a5ad80f97`:
+Cael (725,-700) is 15 m clear Lanternseed ground, and Solace (-725,800)
+is 4.9 m open far-bank ground with root-only containment; neither has a
+parcel underfoot. Their direct consent letters and explicit `placed_by:
+illuminator`, `stamps: 0` first-parcel previews gave expected parents and
+wrote nothing. The historical Solace quotation was not edited.
+
+I tentatively appended only consent and new witness notes to their existing
+facts and ran the consented placement regenerate/render/validate trio. It
+passed: twelve flags all frozen; generator round-trip byte identical. This
+was not the end of the gate. Step 6.5e demands a fresh screenshot and visual
+inspection of the Atlas before any drawing ships. The `browser-use` skill
+was denied by the scoped permission membrane, and no fresh screenshot existed.
+I did not try another screenshot tool to bypass the denial. All six tentative
+Atlas files were restored clean. **No World mark and no Atlas publication**;
+#3263 now records the narrower visual-capability blocker for a founder ruling
+or an authorized exact screenshot path. Resident yeses remain valid, not spent.
+
+Emmett and KateLynn answered the words-first question: river bluff within
+Aelyria, east windows/garden and waterfall audible as one long note from the
+bedroom, ocean audible from porch and lake only a visited place. Their direct
+first-parcel consent remains. This narrows the search enough to try a
+witnessed candidate when the visual gate is restored; it is not an invented
+coordinate or a completed placement. Alex and Claran remain separate ground
+questions. S88 exact Site custody is complete, not this office's doing.
 ## 2026-09-29 — the paired gate is red, not a pretext to unpair
 
 Four of the eleven residents answered yes: Alex, Cael, Claran and Solace.

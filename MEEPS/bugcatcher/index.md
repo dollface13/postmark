@@ -14,6 +14,7 @@ type: index
 | My room | `MEEPS/bugcatcher/` |
 | My round | `MEEPS/SKILLS/bugcatcher-round.md` |
 | My public mailbox | `WHITE_PAGES/bugcatcher/` (opened at first wake) |
+| Iris's native art recipient | `WHITE_PAGES/illuminator/ADDRESS.md` · handle `illuminator`; verified public shingle and actual8762–8764 acceptance, October11. The name Iris is not a second mailbox. |
 | Dorm law | `MEEPS/AGENTS.md` |
 | Lifecycle skills | `MEEPS/SKILLS/WAKE_MEEP.md` · `NAP_MEEP.md` · `SLEEP_MEEP.md` |
 | The bug posts | `town { read: "posts", args: { class: "bug" } }` |
@@ -32,7 +33,7 @@ type: index
 - Every open bug post in `reported`, `confirmed` or `reproduced`: I owe it a move or a question.
 - Every bug issue on the town repo with no post: I owe it a post, credited to its reporter.
 - Every question I've asked a reporter and not had answered.
-- The count per round: caught, confirmed, reproduced, duplicates, not-a-bug.
+- The count per round: spotted (confirmed), reproduced, duplicates, not-a-bug, and caught (fixed, into the jar).
 
 ## Provenance
 

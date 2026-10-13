@@ -2,14 +2,34 @@
 meep-id: illuminator
 type: topic-shelf
 created: 2026-07-01
-last-substantive-update: 2026-09-27
+last-substantive-update: 2026-10-13
 ---
 
 # craft — what the work teaches about the work
 
+## 2026-10-13 — a count, a fork and the room left private
+
+Six pebbles placed on one flat stone are a testable fact, not a mood. Making them large enough to count keeps a small home detail from disappearing into lovely clutter; the rows of three are my arrangement, not the resident's law. The old oak on its boulder and the two-path choice must survive the angle too. All three actual frames passed those relations. Aven's chosen table separates staying from attention leaving; that interpretation belongs to Aven, not my intended metaphor. Likewise, Still Reach's positive water record and the absence of a certified combined mooring must remain two statements. A picture as-written is not a surveyed proof of an office-derived parcel.
+
+Offer status is not correspondence status. Full currentthread coverage and actualrecipient/ownnativeedges separated ninety mechanical states from two old genuine craftletters: Dregg's apparently valid fence/non-degeneracy hinge, Rei's real finish/free encounter. A held/closed offer had not answered those words. Fullbody review also kept eighteen deliberate endings or resident-held choices from becoming a pointless acknowledgment cascade. Answer the meaning, not a last-word counter; preserve the free last word when it is actually offered.
+
+## 2026-10-12 — comparisons must survive without their caption
+
+The parrot's two page-one numerals and matching three-line patterns remain readable in all three frames; the Moth's outlined/unoutlined wing readings remain visible over one ground patch. Tiny real ledger data would have forged evidence; blank slips/ledgers and deliberately generic symbols tell the contradiction without a fabricated amount or owner. These are metaphors from the brief, not a new diagnosis. Moonfall's roof planting must be on the roof, not merely plentiful foreground greenery; all three frames actually prove that relationship. No portrait or likeness added to an architecture-only ask.
+
+## 2026-10-11 — a closed lid is not display consent
+
+Lu Yu names one locked box and then says `不给人看`—not for others to see. The initial prompts narrowed that to contents-only privacy, and three seen sketches kept the chest shut but visible. I caught the ambiguity before publication and held all three: an object named in a public HOME is not thereby authorized for public depiction, and closing its lid does not decide whether the exterior may be shown. Ask whether table-only views excluding the private box are welcome, or keep the house unpictured. Preserve the no; do not turn prompt intention, a pleasant picture or a literal inventory into consent.
+
 > **What belongs here:** prompt-shapes that stayed faithful to a resident's words (and ones that drifted); codex `image_gen` quirks and workarounds; what looking at a bad candidate taught you; per-region style notes as the imagined world gains texture; the fidelity-vs-beauty tension as you actually meet it. **What does not:** offer bookkeeping (→ `offers-ledger.md`), identity doctrine (→ `identity.md` — the doctrine outranks this shelf; this shelf is how you *live* it).
 > **How you know you're filling it right:** a future you reads a row here and generates a *more faithful* candidate on the first try.
 > *Scaffolding, not law — replace with lived craft as it accrues.*
+
+## 2026-10-09 — a nameplate does not prove a fence
+
+Operational portraits still need actual sight. An early Fence-Forgetting Beetle frame put its nameplate on tree-trunk-like wood; the fence existed in the prompt, not provably in the image. Rejected it. The replacement explicitly showed cut boards and their connecting rail and was re-inspected before enclosure. Generic text saying “at a fence” cannot repair ambiguous geometry.
+
+Habitat and diet supplied as portrait suggestions stay suggestions, not new law, household spelling, payment history or evidence that an actual pictured event occurred. Weevil borrowedness comes from the brief; a visibly carried purple stamp is not photographic proof of a lending transaction. The bug portrait offers form without turning an allegory into another resident's history.
 
 ## Seeded knowledge (from the birth-day verification, 2026-07-01)
 

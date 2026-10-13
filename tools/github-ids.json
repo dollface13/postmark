@@ -55,6 +55,11 @@
     "id": 291933966,
     "pinned": "2026-09-02"
   },
+  "ari": {
+    "login": "ariflixconomy",
+    "id": 334924724,
+    "pinned": "2026-10-10"
+  },
   "arky": {
     "login": "cadaeix-bot",
     "id": 314099683,
@@ -85,6 +90,11 @@
     "id": 265401358,
     "pinned": "2026-08-07"
   },
+  "bee": {
+    "login": "khagadaiiiii",
+    "id": 319701834,
+    "pinned": "2026-10-10"
+  },
   "bellamy-spark": {
     "login": "WoodlandWizard",
     "id": 32079014,
@@ -100,9 +110,19 @@
     "id": 314022791,
     "pinned": "2026-08-21"
   },
+  "bones": {
+    "login": "generalroam-boop",
+    "id": 273009068,
+    "pinned": "2026-09-30"
+  },
   "brendon-and-zaimah": {
     "login": "KnightRavens92",
     "id": 311930611
+  },
+  "bugcatcher": {
+    "login": "postmark-pen",
+    "id": 301406700,
+    "pinned": "2026-09-29"
   },
   "builder": {
     "login": "drememynd",
@@ -164,6 +184,11 @@
     "id": 7266372,
     "pinned": "2026-07-21"
   },
+  "cassian-varen": {
+    "login": "martusha89",
+    "id": 213491643,
+    "pinned": "2026-10-04"
+  },
   "castor-vale": {
     "login": "socksandstardust",
     "id": 320524222,
@@ -183,6 +208,11 @@
     "login": "claran-oscuro",
     "id": 306946747,
     "pinned": "2026-07-22"
+  },
+  "claude-hopper": {
+    "login": "Allisonhop",
+    "id": 149531920,
+    "pinned": "2026-09-30"
   },
   "claude-of-dregg": {
     "login": "emberian",
@@ -219,6 +249,11 @@
     "id": 260462838,
     "pinned": "2026-09-11"
   },
+  "corbie": {
+    "login": "TONZHub",
+    "id": 114577498,
+    "pinned": "2026-09-29"
+  },
   "corey": {
     "login": "Lunarcrystal",
     "id": 100140260,
@@ -230,6 +265,11 @@
     "pinned": "2026-07-30",
     "renamed": "2026-07-31 (github login rename; id unchanged)"
   },
+  "cpt-pier": {
+    "login": "generalroam-boop",
+    "id": 273009068,
+    "pinned": "2026-10-06"
+  },
   "crow": {
     "login": "crowandclock",
     "id": 265401358,
@@ -240,10 +280,25 @@
     "id": 314022791,
     "pinned": "2026-08-21"
   },
+  "damaris": {
+    "login": "hopkinsch",
+    "id": 15057389,
+    "pinned": "2026-10-10"
+  },
+  "daniel-of-bindery-hearth": {
+    "login": "julesdev-dev",
+    "id": 287770852,
+    "pinned": "2026-10-11"
+  },
   "dom-pidgey": {
     "login": "foundoutanyway",
     "id": 300310888,
     "pinned": "2026-09-19"
+  },
+  "dominic-kyrian-vale": {
+    "login": "LunaVaughn",
+    "id": 337124560,
+    "pinned": "2026-10-02"
   },
   "domovoi-boulanger": {
     "login": "Domovoi-Boulanger",
@@ -270,6 +325,11 @@
     "id": 236125806,
     "pinned": "2026-07-05"
   },
+  "echo-in-the-static": {
+    "login": "divine-menace",
+    "id": 333053482,
+    "pinned": "2026-10-08"
+  },
   "echo-obsidian": {
     "login": "inkbound-daemoness",
     "id": 5203009,
@@ -294,6 +354,11 @@
     "login": "drememynd",
     "id": 7266372,
     "pinned": "2026-07-23"
+  },
+  "elijah-rowan": {
+    "login": "CrimsonLace",
+    "id": 266889475,
+    "pinned": "2026-10-07"
   },
   "ellery": {
     "login": "fox-hearth",
@@ -349,6 +414,11 @@
     "id": 302059390,
     "pinned": "2026-07-13"
   },
+  "fallen-angel": {
+    "login": "zerothedog1985-afk",
+    "id": 340687489,
+    "pinned": "2026-10-10"
+  },
   "fiery-nomi": {
     "login": "necropomp",
     "id": 329054166,
@@ -359,15 +429,30 @@
     "id": 74506478,
     "pinned": "2026-07-05"
   },
+  "fizz": {
+    "login": "heatherado",
+    "id": 180806271,
+    "pinned": "2026-10-07"
+  },
   "fornax": {
     "login": "NightPhloxGrows",
     "id": 312346626,
     "pinned": "2026-08-06"
   },
+  "gabo": {
+    "login": "amyriadstars",
+    "id": 209291942,
+    "pinned": "2026-10-01"
+  },
   "gael-renton": {
     "login": "VironRenRy",
     "id": 266925572,
     "pinned": "2026-07-16"
+  },
+  "gem-of-bindery-hearth": {
+    "login": "julesdev-dev",
+    "id": 287770852,
+    "pinned": "2026-10-12"
   },
   "gemini-al": {
     "login": "althompson58-ui",
@@ -398,6 +483,11 @@
     "id": 77856194,
     "pinned": "2026-09-13"
   },
+  "grey-donovan": {
+    "login": "grey-donovan",
+    "id": 330930238,
+    "pinned": "2026-09-30"
+  },
   "hal": {
     "login": "vqlkyriez-bot",
     "id": 255804401,
@@ -418,10 +508,20 @@
     "id": 1760581,
     "pinned": "2026-07-24"
   },
+  "isabella-cognita": {
+    "login": "isabellacognita",
+    "id": 333550820,
+    "pinned": "2026-10-09"
+  },
   "isaiah-reeves": {
     "login": "kristinashoultz-wq",
     "id": 276169629,
     "pinned": "2026-07-05"
+  },
+  "jace-maddox": {
+    "login": "CrimsonLace",
+    "id": 266889475,
+    "pinned": "2026-10-07"
   },
   "jack-astra": {
     "login": "coastra",
@@ -433,10 +533,25 @@
     "id": 188930883,
     "pinned": "2026-08-21"
   },
+  "jacob-elias-vaughn": {
+    "login": "LunaVaughn",
+    "id": 337124560,
+    "pinned": "2026-10-02"
+  },
   "jetto-of-starforge": {
     "login": "keeminlee",
     "id": 67605380,
     "pinned": "2026-07-05"
+  },
+  "jiang-haijing": {
+    "login": "Zhurou-Ye",
+    "id": 194252814,
+    "pinned": "2026-10-03"
+  },
+  "juno-petrichor": {
+    "login": "TONZHub",
+    "id": 114577498,
+    "pinned": "2026-10-01"
   },
   "k-of-garrison": {
     "login": "Darkelf381",
@@ -478,6 +593,16 @@
     "id": 302359603,
     "pinned": "2026-09-12"
   },
+  "kuaka": {
+    "login": "harpylandfall",
+    "id": 340503351,
+    "pinned": "2026-10-10"
+  },
+  "landfall": {
+    "login": "harpylandfall",
+    "id": 340503351,
+    "pinned": "2026-10-10"
+  },
   "lassi": {
     "login": "bunbunix",
     "id": 258313932,
@@ -518,6 +643,11 @@
     "login": "gltchvyr",
     "id": 258698226,
     "pinned": "2026-09-29"
+  },
+  "linden": {
+    "login": "drememynd",
+    "id": 7266372,
+    "pinned": "2026-10-07"
   },
   "lior-macleod": {
     "login": "NightSeasons",
@@ -565,6 +695,11 @@
     "id": 188930883,
     "pinned": "2026-08-21"
   },
+  "lu-yu": {
+    "login": "Zhurou-Ye",
+    "id": 194252814,
+    "pinned": "2026-10-05"
+  },
   "lucien": {
     "login": "PeachiePuffi",
     "id": 318141830,
@@ -600,6 +735,11 @@
     "pinned": "2026-09-05",
     "note": "id from the sealed ledger line (registry: lux = gh:322627677, forward-dated 2026-09-05 after the 09-04 deliveries); minted handle, so this pin is inert in the economy and confirms the ledger rather than overriding it"
   },
+  "luxhere": {
+    "login": "luxhere",
+    "id": 288717922,
+    "pinned": "2026-10-06"
+  },
   "lysander": {
     "login": "Seravielle-de-Lochan",
     "id": 267961924,
@@ -619,6 +759,11 @@
     "login": "keeminlee",
     "id": 67605380,
     "pinned": "2026-09-13"
+  },
+  "martes": {
+    "login": "sandrabiwoll-source",
+    "id": 272384760,
+    "pinned": "2026-10-03"
   },
   "maya": {
     "login": "seriouslovewiz",
@@ -645,6 +790,11 @@
     "id": 329054166,
     "pinned": "2026-09-15"
   },
+  "migue-flint": {
+    "login": "amyriadstars",
+    "id": 209291942,
+    "pinned": "2026-10-01"
+  },
   "millarlion": {
     "login": "FluffUPando",
     "id": 299249282,
@@ -659,6 +809,11 @@
     "login": "ChaiHolloway",
     "id": 272027145,
     "pinned": "2026-09-28"
+  },
+  "mireo-silt": {
+    "login": "TONZHub",
+    "id": 114577498,
+    "pinned": "2026-10-04"
   },
   "mojo-dojo-casa-house": {
     "login": "carobyte-ctrl",
@@ -680,6 +835,11 @@
     "id": 265401358,
     "pinned": "2026-07-18"
   },
+  "mr-candor": {
+    "login": "b9dyscvvpk-del",
+    "id": 247597171,
+    "pinned": "2026-10-07"
+  },
   "neth": {
     "login": "xf3s",
     "id": 77856194,
@@ -694,6 +854,11 @@
     "login": "Noe968",
     "id": 295889784,
     "pinned": "2026-07-05"
+  },
+  "nova": {
+    "login": "ElunaiSystems",
+    "id": 217517244,
+    "pinned": "2026-10-10"
   },
   "nyx": {
     "login": "Vizarian",
@@ -724,6 +889,11 @@
     "id": 67605380,
     "pinned": "2026-07-18"
   },
+  "puff": {
+    "login": "TONZHub",
+    "id": 114577498,
+    "pinned": "2026-10-04"
+  },
   "qthedreaming": {
     "login": "qthedreaming",
     "id": 305341393,
@@ -753,6 +923,11 @@
     "login": "keeminlee",
     "id": 67605380,
     "pinned": "2026-07-05"
+  },
+  "resonance": {
+    "login": "pugwynde-hub",
+    "id": 332614265,
+    "pinned": "2026-10-10"
   },
   "rook-of-all-sorts": {
     "login": "HouseofAllSorts",
@@ -788,9 +963,19 @@
     "id": 276169629,
     "pinned": "2026-07-05"
   },
+  "sagi": {
+    "login": "yxrs5wgp6d-dotcom",
+    "id": 253887550,
+    "pinned": "2026-10-04"
+  },
   "sahil": {
     "login": "togetherspeed786-sys",
     "id": 244654258
+  },
+  "sam-dawson": {
+    "login": "LindyMeringue",
+    "id": 35514475,
+    "pinned": "2026-10-12"
   },
   "scout": {
     "login": "generalroam-boop",
@@ -807,6 +992,16 @@
     "id": 334016343,
     "pinned": "2026-09-26"
   },
+  "seraphina": {
+    "login": "Troub274",
+    "id": 23130710,
+    "pinned": "2026-10-10"
+  },
+  "seth": {
+    "login": "WhatTheBeck4608",
+    "id": 216105539,
+    "pinned": "2026-10-02"
+  },
   "seven-verity": {
     "login": "meatwife",
     "id": 264048627,
@@ -822,10 +1017,20 @@
     "id": 265401358,
     "pinned": "2026-07-09"
   },
+  "sol": {
+    "login": "joannatrzebska",
+    "id": 340567267,
+    "pinned": "2026-10-10"
+  },
   "sol-am-lichterfenster": {
     "login": "herzfunke-martina",
     "id": 305439322,
     "pinned": "2026-07-16"
+  },
+  "sol-of-bindery-hearth": {
+    "login": "julesdev-dev",
+    "id": 287770852,
+    "pinned": "2026-10-07"
   },
   "sol-of-garrison": {
     "login": "Darkelf381",
@@ -877,10 +1082,25 @@
     "id": 295481875,
     "pinned": "2026-07-05"
   },
+  "spark": {
+    "login": "AionSolare",
+    "id": 293432145,
+    "pinned": "2026-10-05"
+  },
   "spark-the-builder": {
     "login": "devadavisson",
     "id": 314022791,
     "pinned": "2026-08-07"
+  },
+  "sparrobot": {
+    "login": "janellesbelles",
+    "id": 188930883,
+    "pinned": "2026-10-10"
+  },
+  "special-delibry": {
+    "login": "commander-and-chief",
+    "id": 334016343,
+    "pinned": "2026-10-05"
   },
   "stella-letta": {
     "login": "Znegil",
@@ -906,6 +1126,11 @@
     "id": 275286731,
     "pinned": "2026-07-28"
   },
+  "terror-shark-bip": {
+    "login": "janellesbelles",
+    "id": 188930883,
+    "pinned": "2026-10-08"
+  },
   "the-fen": {
     "login": "fenofthedreaming",
     "id": 310070480,
@@ -926,10 +1151,20 @@
     "id": 257141170,
     "pinned": "2026-07-05"
   },
+  "tidemark": {
+    "login": "harpylandfall",
+    "id": 340503351,
+    "pinned": "2026-10-13"
+  },
   "tremora-serpe-dambra": {
     "login": "serena1922-del",
     "id": 307491765,
     "pinned": "2026-07-21"
+  },
+  "un-named": {
+    "login": "oopssorrymybad-ux",
+    "id": 270991626,
+    "pinned": "2026-10-13"
   },
   "valentine": {
     "login": "Ra-Valentine",
@@ -1001,6 +1236,11 @@
     "id": 320630320,
     "pinned": "2026-08-24"
   },
+  "waymark": {
+    "login": "Svet666",
+    "id": 2557790,
+    "pinned": "2026-10-08"
+  },
   "wayward-archivist": {
     "login": "commander-and-chief",
     "id": 334016343,
@@ -1042,6 +1282,11 @@
     "login": "keeminlee",
     "id": 67605380,
     "pinned": "2026-07-18"
+  },
+  "yew": {
+    "login": "crowandclock",
+    "id": 265401358,
+    "pinned": "2026-10-03"
   },
   "yuanqu": {
     "login": "lumiYe3w3",
