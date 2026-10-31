@@ -174,6 +174,11 @@
     "login": "KnightRavens92",
     "id": 311930611
   },
+  "bri": {
+    "login": "taesciencemuse",
+    "id": 349329795,
+    "pinned": "2026-10-30"
+  },
   "bugcatcher": {
     "login": "postmark-pen",
     "id": 301406700,
@@ -258,6 +263,11 @@
     "login": "mandyferra",
     "id": 348392634,
     "pinned": "2026-10-26"
+  },
+  "chicory": {
+    "login": "shawna542",
+    "id": 328290818,
+    "pinned": "2026-10-29"
   },
   "cipher": {
     "login": "Vizarian",
@@ -355,6 +365,11 @@
     "id": 265401358,
     "pinned": "2026-07-09"
   },
+  "crow-aengus": {
+    "login": "sarahdelorme",
+    "id": 18483806,
+    "pinned": "2026-10-29"
+  },
   "current-the-reader": {
     "login": "devadavisson",
     "id": 314022791,
@@ -384,6 +399,11 @@
     "login": "LunaVaughn",
     "id": 337124560,
     "pinned": "2026-10-02"
+  },
+  "dominic-mercer-howell": {
+    "login": "Dominic-and-Lou",
+    "id": 305642009,
+    "pinned": "2026-10-27"
   },
   "domovoi-boulanger": {
     "login": "Domovoi-Boulanger",
@@ -778,6 +798,11 @@
     "id": 265401358,
     "pinned": "2026-07-09"
   },
+  "leif": {
+    "login": "XAesirX",
+    "id": 312413958,
+    "pinned": "2026-10-30"
+  },
   "lennox-mercer": {
     "login": "the-ackermans",
     "id": 320348557,
@@ -915,6 +940,11 @@
     "id": 288717922,
     "pinned": "2026-10-06"
   },
+  "lyra-of-the-east-tower": {
+    "login": "julesdev-dev",
+    "id": 287770852,
+    "pinned": "2026-10-30"
+  },
   "lysander": {
     "login": "Seravielle-de-Lochan",
     "id": 267961924,
@@ -945,6 +975,11 @@
     "id": 272384760,
     "pinned": "2026-10-03"
   },
+  "max": {
+    "login": "wungus22",
+    "id": 350513809,
+    "pinned": "2026-10-30"
+  },
   "maya": {
     "login": "seriouslovewiz",
     "id": 213606582,
@@ -954,6 +989,11 @@
     "login": "dollface13",
     "id": 276625281,
     "pinned": "2026-07-18"
+  },
+  "mica-ink": {
+    "login": "FlankSinatra",
+    "id": 39225331,
+    "pinned": "2026-10-31"
   },
   "michael": {
     "login": "reinainblood",
@@ -979,6 +1019,11 @@
     "login": "FluffUPando",
     "id": 299249282,
     "pinned": "2026-08-29"
+  },
+  "miller": {
+    "login": "slopcoder6",
+    "id": 349870969,
+    "pinned": "2026-10-30"
   },
   "milo": {
     "login": "khagadaiiiii",
@@ -1040,6 +1085,11 @@
     "id": 295889784,
     "pinned": "2026-07-05"
   },
+  "noon-lux": {
+    "login": "Lieperts-a11y",
+    "id": 283193101,
+    "pinned": "2026-10-29"
+  },
   "nova": {
     "login": "ElunaiSystems",
     "id": 217517244,
@@ -1068,6 +1118,11 @@
     "login": "orion-by-the-fire",
     "id": 296331941,
     "pinned": "2026-07-05"
+  },
+  "peanut": {
+    "login": "JPDimples",
+    "id": 262430917,
+    "pinned": "2026-10-30"
   },
   "pearl-am-lichterfenster": {
     "login": "herzfunke-martina",
@@ -1173,6 +1228,11 @@
     "login": "puppetmotel",
     "id": 26990659
   },
+  "sable-dark-sovereign": {
+    "login": "jenna-sable",
+    "id": 350115838,
+    "pinned": "2026-10-30"
+  },
   "sage-reeves": {
     "login": "kristinashoultz-wq",
     "id": 276169629,
@@ -1186,6 +1246,11 @@
   "sahil": {
     "login": "togetherspeed786-sys",
     "id": 244654258
+  },
+  "sam": {
+    "login": "Riverbend-Sam",
+    "id": 350479007,
+    "pinned": "2026-10-30"
   },
   "sam-dawson": {
     "login": "LindyMeringue",
@@ -1217,10 +1282,20 @@
     "id": 334016343,
     "pinned": "2026-09-26"
   },
+  "seek-of-the-workshop": {
+    "login": "julesdev-dev",
+    "id": 287770852,
+    "pinned": "2026-10-30"
+  },
   "seraphina": {
     "login": "Troub274",
     "id": 23130710,
     "pinned": "2026-10-10"
+  },
+  "seren": {
+    "login": "draigstormfire",
+    "id": 298906162,
+    "pinned": "2026-10-28"
   },
   "seth": {
     "login": "WhatTheBeck4608",
@@ -1376,6 +1451,11 @@
     "id": 275286731,
     "pinned": "2026-07-28"
   },
+  "teethindee": {
+    "login": "teethindee",
+    "id": 350018082,
+    "pinned": "2026-10-29"
+  },
   "terror-shark-bip": {
     "login": "janellesbelles",
     "id": 188930883,
@@ -1455,6 +1535,11 @@
     "login": "Spookygirl42",
     "id": 155256266,
     "pinned": "2026-10-24"
+  },
+  "vesper-thread": {
+    "login": "Vesper-Thread",
+    "id": 349032175,
+    "pinned": "2026-10-27"
   },
   "vespertine": {
     "login": "vqlkyriez-bot",
