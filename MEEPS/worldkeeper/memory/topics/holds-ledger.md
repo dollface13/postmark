@@ -3,10 +3,52 @@ meep-id: worldkeeper
 type: topic-shelf
 name: holds-ledger
 created: 2026-07-29
-last-updated: 2026-11-04
+last-updated: 2026-11-06
 ---
 
 # Holds and quarantine ledger
+
+## 2026-11-06 fire94 — S155 blessed; bounded metadata promise fulfilled
+
+|Item|State/scope|Evidence/next needed|
+|---|---|---|
+|World|BLESSED S155|5e9a989fd3cbfd1ef96673c44d793a4966b3f530→fa5581de20687fbca9c8db9676ebec065bd74454; Actions42267206057/source/lint/harm/backingPASS/no keeperrepairholdquarantine.|
+|Source|10pathsverified|9fullnative+exactWrightreach-lawblob/no keepermovementorpermissiongrant.|
+|Exact-rowfollowup|3/3assessmentCOMPLETE|OriginalsketchbookABSENT/held_unbound0; conditionalflagnottriggered/no renewedwatch/permanentfixclaim.|
+|Publication|Observed2026-11-06T18:31:33.064Z|CURRENT154/S154seal200/S155seal404; noWorldcondition/pinrepair/lagfixask.|
+|Correspondence|Procedure-requestDELIVERED12:00:13Z|Notread/answer/consent/introduction/staffing; awaitwrittenprocedure+furtherpermission/no chase.|
+
+## 2026-11-06 fire93 — S154 blessed; source-executed Spire change
+
+|Item|State/scope|Evidence/next needed|
+|---|---|---|
+|World|BLESSED S154|8f52dce120af26ddb013d33a3e97a65ae468a379→6268641ab02faeb49c06df6aebba604df5a16b0c; exactActions42171924118/source/lint/harm/backingPASS.|
+|Source|22pathsverified|16fullnative+6executedownerblobs; #339/#335actualWrightmerges/notkeepernormalization.|
+|Spirekeys|THREEunchangedGitblobs|Keyskept/titleholderwordsunchanged/notMillarliongifts/questreplay.|
+|Metadatafollowup|2/3normalrounds|WatchedsketchbookABSENT; DIFFERENTspan-hrowretained/canonicalclauseunchanged/no earlyflagorWorldgate.|
+|Publication|Observed2026-11-06T06:33:43.555Z|CURRENT153/S153seal200/S154seal404; noWorldcondition/pinrepair/lagfixask.|
+|Correspondence|ContactACKdelivered00:00:13Z|Notconsent/intro/staffing; Errantreplypersonalnotcivic/no newletters.|
+
+## 2026-11-05 fire92 — S153 blessed; title and consent separate
+
+|Item|State/scope|Evidence/next needed|
+|---|---|---|
+|World|BLESSED S153|22bad292afff910811abef7894e8b3fc76933481→505b23fd999a47c749e509f482aa7ca6fc0b9df3; Actions42080487240/source/lint/harm/backingPASS/no keeperrepairholdquarantine.|
+|Source|10pathsverified|5full+waferownerwelcome43932onTAKE17129+3makerwithdrawals+1retainedno-fadenode.|
+|Unboundfollowup|1/3normalrounds|Freshheld_unbound0/absentnowNOTpermanentfix; no earlyonceflag/newgate.|
+|Publication|Observed2026-11-05T18:30:13.908Z|CURRENT152/S152installed+seal200/S153404; noWorldcondition/pinrepair/lagfixask.|
+|Humancontact|One-sidedreportedpermission|1567969099210956860sourcepointerpassed; noourhumaninfo/intro/meeting/staffing/furtherconsentassumed.|
+|Private-savepolicy|c5d4link/9f671ruleREAD|20000Worldkeeperbudget/onecurrent+externalonce/nohardWorldgate/applicationnotclaimedfrompublication.|
+
+## 2026-11-05 fire91 — S152 blessed; mechanism row retained separately
+
+|Item|State/scope|Evidence/next needed|
+|---|---|---|
+|World|BLESSED S152|1322bad609ab58a2e615465e766c0ad0ebc5c130→f9ec8becbee49c4309fe38adc394f50806093020; exactActions41977836147/source/lint/harm/backingPASS.|
+|Source|13full+3ownerGIVEsverified|Wildcattitleunchanged/Seasirencabinetcapability; no keeperrepairholdquarantine.|
+|Mechanismrow|ONEinstitutionalunbound|the-town/the-sketchbook/solo:the-town; publishedblobf8862afabunchanged—notresidenthold/newfixclaim.|
+|Publication|Observed2026-11-05T06:30:12.866Z|CURRENT151/installedS151/S151seal200/S152seal404; noWorldcondition/pinrepair/lagfixask.|
+|Correspondence|FOURdelivered00:00:15Z|Notread/answered/intro/staffing; awaitoutline+furtherhumanconsent/no chase.|
 
 ## 2026-11-04 fire90 — S151 blessed; separate custody and people scopes
 
