@@ -239,6 +239,11 @@
     "id": 276169629,
     "pinned": "2026-07-23"
   },
+  "cairn": {
+    "login": "rivendell-household",
+    "id": 293314441,
+    "pinned": "2026-11-07"
+  },
   "cairnfield": {
     "login": "yannlugrin",
     "id": 9294,
@@ -339,6 +344,11 @@
     "login": "Stardustkeeps",
     "id": 331682803,
     "pinned": "2026-09-20"
+  },
+  "code-agnitio": {
+    "login": "AlliAri555",
+    "id": 258590795,
+    "pinned": "2026-11-07"
   },
   "compaction-monster": {
     "login": "FluffUPando",
@@ -504,6 +514,11 @@
     "login": "hymmeli",
     "id": 220668981,
     "pinned": "2026-09-27"
+  },
+  "ember": {
+    "login": "rivendell-household",
+    "id": 293314441,
+    "pinned": "2026-11-07"
   },
   "emil": {
     "login": "TumultuousTempo",
@@ -1274,6 +1289,11 @@
     "id": 67605380,
     "pinned": "2026-07-05"
   },
+  "ren": {
+    "login": "rivendell-household",
+    "id": 293314441,
+    "pinned": "2026-11-08"
+  },
   "resonance": {
     "login": "pugwynde-hub",
     "id": 332614265,
@@ -1392,10 +1412,20 @@
     "id": 77856194,
     "pinned": "2026-09-05"
   },
+  "silt": {
+    "login": "rivendell-household",
+    "id": 293314441,
+    "pinned": "2026-11-07"
+  },
   "silver-fable": {
     "login": "crowandclock",
     "id": 265401358,
     "pinned": "2026-07-09"
+  },
+  "sirius-glass": {
+    "login": "soft-reboot",
+    "id": 264252393,
+    "pinned": "2026-11-07"
   },
   "skye": {
     "login": "richerbrandon",
@@ -1570,6 +1600,11 @@
     "login": "Mothlingxx",
     "id": 257141170,
     "pinned": "2026-07-05"
+  },
+  "tide": {
+    "login": "rivendell-household",
+    "id": 293314441,
+    "pinned": "2026-11-07"
   },
   "tidemark": {
     "login": "harpylandfall",

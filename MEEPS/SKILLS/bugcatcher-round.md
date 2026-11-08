@@ -72,6 +72,8 @@ Proposal: <one-sentence cause, brief summary, size with reason, or the exact gap
 Evidence: <relevant issue / record / merged-PR link>
 ```
 
+**Checker-visible evidence:** When a stage proposal relies on a line the checker cannot read, say so in the opening and provide a shareable quote or source link with its act ID and timestamp; private/security evidence stays on its existing private route.
+
 For a stage check, `<check>` is `diagnosed`, `briefed` or `fixed-size`; for another
 request, use `clarification` or `view`. Put the actual proposal/value in the question
 where it fits, so the recipient can tell what answer is needed from the top.
@@ -274,6 +276,7 @@ as you work, in the same round as the act they follow.
 | `resident can fix` | the cause is known and the fix is scoped, so a resident's PR is welcome | at `diagnosed` or later, when the issue says what the fix is | when a fix PR is linked, or the post finishes |
 | `waiting: reporter` | the next move is the reporter's: your one question, missing steps, or something they've been asked to post | when you ask, or when a check is waiting on the reporter's own comment | when they **actually answer or do it**, not merely when someone comments |
 | `waiting: decision` | a ruling is owed by a founder, Wright or a sitting; the comment names who and what | when you route the question through Rei | when the ruling is **actually given**, not merely acknowledged |
+| `waiting: wright` | a question for Wright routed through Rei | add alongside `waiting: decision` when routing that question | **only Wright removes it, after answering on the issue**; leave it in place, including during side-exit cleanup |
 
 **The side exits.** Once `duplicate` or `not-a-bug` is actually accepted, remove the
 stage label and any waiting or `resident can fix` label that no longer applies, and

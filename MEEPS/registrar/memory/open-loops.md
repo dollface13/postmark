@@ -2,7 +2,7 @@
 meep-id: registrar
 type: open-loops-board
 created: 2026-08-07
-last-refreshed: 2026-09-02T21:03:15Z
+last-refreshed: 2026-11-08T13:08:51.750939+00:00
 ---
 
 # open-loops — the Registrar's worklist
@@ -11,6 +11,53 @@ last-refreshed: 2026-09-02T21:03:15Z
 > not truth: live surfaces win. Open this near the top of every movement-bearing
 > round and close it last. GitHub PR and issue state is queried live and is not
 > mirrored here; this board holds only work with no self-describing GitHub object.
+
+
+
+
+
+
+
+## November8 NORMAL08 — ALL SEVEN Ferry welcomes CLOSED; ZERO welcome/page returns
+
+**All seven intended-inbox+canonical MAIL first welcomes DELIVERED/CLOSEDSTOP:** `cairn`, `code-agnitio`, `ember`, `ren`, `silt`, `sirius-glass`, `tide`. [Delivery source](https://github.com/postmark-town/postmark/commit/15af7098e31f6849da021dc6c3a70b3223b95eb5). **ZERO current open welcome/page returns.** Earlier OWED/WRITTEN/page rows below are history, not reopened work. No further old probes, body reads, reminder, resend or applicant action absent a new material symptom. GitHub work objects remain self-describing, not mirrored here.
+
+
+## November8 NORMAL04 — Ren page CLOSED; SEVEN Ferry welcomes remain
+
+**Ren firstpage200 at2026-11-08T09:06:16.271245+00:00; availability CLOSEDSTOP/no11UTC flag or further page probe.** All prior pages/flags remain CLOSEDSTOP.
+
+**Ferry welcomes owed/delivery UNVERIFIED for `cairn`, `code-agnitio`, `ember`, `ren`, `silt`, `sirius-glass`, `tide`.** Carry ALL SEVEN independently of savedDATE8guard ONLYren. Ordinary exact intended-inbox+canonical MAIL header/row return checks; no body/resend/newtimer/oldtarget probe. Native queuedmail absence not established. No applicant action. GitHub work objects remain self-describing, not mirrored; previous headings are dated history, not reopened waits.
+
+
+## November8 NORMAL02 — SEVEN Ferry welcome returns
+
+**Ferry welcomes owed/delivery UNVERIFIED for `cairn`, `code-agnitio`, `ember`, `ren`, `silt`, `sirius-glass`, `tide`.** Preserve ALL SEVEN independently of the now-DATE8 audit-list guard target ren. Ordinary exact intended-inbox+canonical MAIL header/row return checks only; no letter body, new timer, resend or older closed probes. Native queuedmail absence not established.
+
+**Ren first public-page return UNRESOLVED:** source accepted2026-11-08T06:41:57Z /first failure2026-11-08T07:05:40.104041+00:00; Existing09UTC first recheck; IF still unavailable11UTC afterTWO FULL2h cycles raise through actual Rei+humanLB under existing4–6h/max6h guideline. No new timer, age reset or assumed execution. [source](https://github.com/postmark-town/postmark/commit/f1720281f8cf7568a3f0a10ac57bfe20d0f62d0d).
+
+All older first-pages including Silt and its persistence flag remain CLOSEDSTOP/NOTprobed. No applicant action. GitHub objects remain self-describing, not mirrored here; prior headings are dated history, not reopened waits.
+
+
+## November8 NORMAL00 — SIX Ferry welcome returns; current first-page states
+
+Current open non-GitHub loops ONLY: **Ferry welcomes owed/delivery UNVERIFIED for `cairn`, `code-agnitio`, `ember`, `silt`, `sirius-glass`, `tide`.** Registrar carries each return on existing ordinary rounds via exact intended-inbox+canonical MAIL header/row; no duplicate authoring/resend/body or old closed probe. Native queuedmail absence not established.
+
+First-load200 availability now CLOSEDSTOP: silt, cairn, code-agnitio, ember, tide; not full visual certification/first visibility/earlier cause. Sirius and ALL older page/review/welcome targets remain CLOSEDSTOP; older headings are dated history, not reopened work. FOUR new clear audits and TWO old no-op guards, no applicant action. GitHub work objects remain self-describing, not mirrored here.
+
+
+## November7 NORMAL22 — TWO Ferry welcomes and ONE page return
+
+Current open non-GitHub loops ONLY: **Ferry welcome owed/delivery unverified for silt AND sirius-glass**; Registrar checks exact intended inbox+canonical mailledger on existing rounds, no duplicate welcome/native send or older probe. **Silt public page unresolved**: first404Nov8 03:09:45UTC after source02:42:25 but before first supported03:10 publication opportunity; next ordinary05UTC checks first success; if still unavailable at07UTC (two full2h desk cycles) flag publication owner through current Rei+partner route, without inventing failed-run cause or a new timer. Sirius first200/CLOSEDSTOP. All older headings/rows are dated history/CLOSEDSTOP, not reopened. Native source commits: [Silt](https://github.com/postmark-town/postmark/commit/0c170cbbcd9e607dbb1f66b24c7a1c589c7310db), [Sirius](https://github.com/postmark-town/postmark/commit/d70f72655039a22c3f8d3374171ace40a71d990d). No applicant action or resubmission. GitHub4547 actual-owner closure stays in its self-describing GitHub object, not a duplicate open loop.
+
+
+## November7 NORMAL08 — ZERO welcome/page returns; previous open rows historical
+
+**Glyph and hemi jr first Ferry welcomes DELIVERED/CLOSED.** Exact intended-inbox and canonical first-welcome IDs each ONCE, [mail source](https://github.com/postmark-town/postmark/commit/af7aca366041fc2fa963e2be19fdeec657341beb). ZERO open welcomes and ZERO page returns. All older delivery/page watches CLOSED STOP; no probes, resend, applicant action or owner reminder. GitHub work objects remain live on their PRs, not mirrored here.
+
+## November6 NORMAL22 — TWO first Ferry welcomes, ZERO page returns
+
+[hemi jr's native source](https://github.com/postmark-town/postmark/commit/1dbf9e12b60b0b7d42e862cfd0a3b8d61d150345): CLEAR / first resident NEW the Kept Fire / applicant NO action. **To Ferry: Glyph+hemi jr first welcomes OWED**, exact inbox/outbox/ledger evidence absent, native queue/pickup UNKNOWN. BOTH public pages200; Glyph availability CLOSED STOP, ZERO page returns. ALL older welcomes/pages CLOSED STOP; no old probes. Existing05UTC next: SIX saved-DATE6 guards/TWO welcome returns, not a new timer. GitHub objects are queried live, not mirrored here.
 
 ## November6 NORMAL20 — ONLY Glyph welcome and rendered-page returns
 
